@@ -1,0 +1,526 @@
+/* Nav Styling */
+ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5.5em;
+    overflow: hidden;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+}
+
+li a:hover {
+    background-color: #e0e0e0;
+}
+
+.active {
+    background-color: #cce5ff;
+}
+
+/* Page Styling */
+.div-top {
+    padding: 25px;
+}
+
+.textpad {
+    padding: 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+blockquote {
+    padding: 80px;
+    display: block;
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+}
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro";
+    margin: 10px;
+}
+h2 {
+    text-align: center;
+    font-family: "Source Sans Pro";
+    margin: 8px;
+}
+h3 {
+    text-align: center;
+    font-family: "Source Sans Pro";
+    margin: 6px;
+}
+
+.dropcap {
+    float: left;
+    /* width: 0.7em; */
+    font-size: 300%;
+    font-family: "Source Code Pro";
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcapword {
+    width: 0.7em;
+    font-size: 150%;
+    font-family: "Source Code Pro";
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcap-intext {
+    float: left;
+    /* width: 0.7em; */
+    font-size: 175%;
+    font-family: "Source Code Pro";
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcap-intext-word {
+    width: 0.7em;
+    font-size: 125%;
+    font-family: "Source Code Pro";
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+
+/* Accordion Styling */
+/* ----GREY---- */
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/*----- Section Titles -----*/
+
+.accordion-section-title {
+    text-decoration: none;
+    color: black;
+    background: #dbdbdb;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+.accordion-section-title.active {
+    background:darkgrey;
+    /* Type */
+    text-decoration:none;
+
+}
+.accordion-section:last-child .accordion-section-title {
+    border-bottom:none;
+}
+
+a.accordion-section-title::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding:15px;
+    display:none;
+    background: whitesmoke;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* -----RED-----*/
+/*Accordion*/
+.accordion-red, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-red {
+    text-decoration: none;
+    color: black;
+    background: #FF6F6F;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+.accordion-section-title.active-red {
+    background:darkgrey;
+    /* Type */
+    text-decoration:none;
+
+}
+.accordion-section-red:last-child .accordion-section-title-red {
+    border-bottom:none;
+}
+
+a.accordion-section-title-red::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title-red.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+/* Section Content */
+.accordion-section-content-red {
+    padding:15px;
+    display:none;
+    background: #FF9999;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* ---BLUE--- */
+/*Accordion*/
+.accordion-blue, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-blue {
+    text-decoration: none;
+    color: black;
+    background: #BCC7E5;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+.accordion-section-title.active-blue {
+    background:darkgrey;
+    /* Type */
+    text-decoration:none;
+
+}
+.accordion-section-blue:last-child .accordion-section-title-blue {
+    border-bottom:none;
+}
+
+a.accordion-section-title-blue::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title-blue.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+/* Section Content */
+.accordion-section-content-blue {
+    padding: 15px;
+    display: none;
+    background: #E6EBF8;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* -------GREEN-------- */
+/*Accordion*/
+.accordion-green, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-green {
+    text-decoration: none;
+    color: black;
+    background: #BFEFBF;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+/*.accordion-section-title.active-green {
+    background:darkgrey;
+    /* Type */
+/* text-decoration:none;
+
+}*/
+.accordion-section-green:last-child .accordion-section-title-green {
+    border-bottom:none;
+}
+
+a.accordion-section-title-green::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle; }
+
+a.accordion-section-title-green.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;}
+
+/* Section Content */
+.accordion-section-content-green {
+    padding: 15px;
+    display: none;
+    background: #E6FAE6;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* ------PURPLE------ */
+/*Accordion*/
+.accordion-purple, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-purple {
+    text-decoration: none;
+    color: black;
+    background:  #A988B0;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+/*.accordion-section-title.active-purple {
+    background:darkgrey;
+    /* Type */
+/*text-decoration:none;
+}*/
+
+.accordion-section-purple:last-child .accordion-section-title-purple {
+    border-bottom:none;
+}
+
+a.accordion-section-title-purple::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+a.accordion-section-title-purple.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* Section Content */
+.accordion-section-content-purple {
+    padding: 15px;
+    display: none;
+    background: #C9B3CD;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* --------YELLOW------ */
+/*Accordion*/
+.accordion-yellow, .accordion * {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+/* Section Title*/
+.accordion-section-title-yellow {
+    text-decoration: none;
+    color: black;
+    background:  #FDF0BD;
+    padding: 1.5px;
+    border-radius: 4px;
+    font-family: "Source Sans Pro";
+}
+
+/*.accordion-section-title.active-purple {
+    background:darkgrey;
+    /* Type */
+/*text-decoration:none;
+}*/
+
+.accordion-section-yellow:last-child .accordion-section-title-yellow {
+    border-bottom:none;
+}
+
+a.accordion-section-title-yellow::after
+{
+    content: "[+]";
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+a.accordion-section-title-yellow.active::after
+{
+    content: "[-]";
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* Section Content */
+.accordion-section-content-yellow {
+    padding: 15px;
+    display: none;
+    background: #FFF8DE;
+    border-radius: 5px;
+    margin: 1em 0;
+    /*type*/
+    font-size: 12pt;
+    color: black;
+    font-family: "Source Sans Pro";
+}
+
+/* ----CONTACT FORM------ */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 75%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: "Source Sans Pro";
+    display: block;
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Source Sans Pro";
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-family: "Source Sans Pro";
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-family: "Source Sans Pro";
+    width: 45%;
+}
+
+/* ---ESSAY TABLE STYLING----*/
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 5px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article-box {
+    border: 2px black;
+    border-style: solid;
+    border-radius: 4px;
+    width: 320px;
+    margin: 1em;
+}
+
+.image-box {
+    margin: 3px;
+    float: left;
+}
+
+@media all and (min-width: 768px) {
+    /* .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;} */
+    .article-box {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    /* footer {-webkit-order:3;order:3;} */
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    color: #5A5959;
+    text-decoration: none;
+}
+a:hover {
+    color: #979696;
+    text-decoration: none;
+}
+
+img:hover {
+    opacity: 0.5;
+    color: #979696;
+}
+

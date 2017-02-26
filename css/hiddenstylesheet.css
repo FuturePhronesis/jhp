@@ -1,0 +1,165 @@
+div.toppad {
+    padding: 15px;
+    margin: auto;
+}
+div.padding {
+    width: 500px;
+    padding: 330px;
+    margin: auto;
+}
+div.vidheader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+div.head {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    width: 200px;
+    padding: 0px;
+    margin: auto;
+    background-color: aqua;
+}
+div.preintro {
+    color: green;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    padding: 0px;
+    margin: auto;
+    background-color: #cce5ff;
+}
+div.intro {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    padding: 0px;
+    margin: auto;
+    background-color: darkgrey;
+}
+div.topbox {
+    padding: 5px;
+}
+div.filler {
+    width: 500px;
+    padding: 500px;
+    margin: auto;
+}
+h2 {
+    color: black;
+}
+p  {
+    font-size: 25px;
+}
+.pbottom {
+    font-size: 15px;
+    text-indent: 50px;
+}
+.pbottombox {
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    width: 150px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    background-color: crimson;
+}
+.lb {
+    text-align: center;
+    float: left;
+    width: 150px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    background-color: crimson;
+}
+.cb {
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    border: 5px solid black;
+    padding: 25px;
+    background-color: crimson;
+
+}
+
+.rb {
+    text-align: center;
+    float: right;
+    width: 150px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    background-color: crimson;
+}
+.rb2 {
+    text-align: center;
+    float: right;
+    width: 500px;
+    border: 5px solid black;
+    padding: 25px;
+    margin: auto;
+    background-color: crimson;
+}
+/*.filler {
+ width: 500px;
+
+    	padding: 500px;
+    	margin: auto;
+    	}*/
+.linkpad {
+    width: 500px;
+
+    padding: 30px;
+    margin: auto;
+}
+.followpad {
+    width: 500px;
+
+    padding: 300px;
+    margin: auto;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+/*a:hover {
+	color: blue;
+		}*/
+.lb:hover {
+    background-color: pink;
+}
+.cb:hover {
+    background-color: pink;
+}
+.rb:hover {
+    background-color: pink;
+}
+.rb2:hover {
+    background-color: pink;
+}
+.pbottombox:hover {
+    background-color: pink;
+}
+/* p {
+	    text-align: center;
+
+	    width: 150px;
+    	border: 5px solid black;
+    	padding: 25px;
+    	margin: 25px;
+
+    	background-color: pink;
+    	*/
+
