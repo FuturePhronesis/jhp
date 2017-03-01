@@ -1,16 +1,141 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+/* ---Lightbox try --- */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
+#gallery {
+    max-width: 100%;
+    height: auto;
+    padding: 7px 0;
+}
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 960px;
+}
+
+/* The Close Button */
+.close {
+    color: #979696;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.hover-shadow:hover {
+    opacity: 0.5;
+    color: #979696;
+}
+
+/* ---W3 School Try ---
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font: 14px/1 'Open Sans', sans-serif;
-    color: #555;
-    background: #e5e5e5;
-}
 
 .gallery {
     width: 640px;
@@ -30,7 +155,7 @@ body {
     display: block;
     width: 200px;
     transition: .1s transform;
-    transform: translateZ(0); /* hack */
+    transform: translateZ(0);
 }
 
 .gallery > div:hover {
@@ -50,11 +175,4 @@ body {
 
 .cf:after {
     clear: both;
-}
-
-h1 {
-    margin: 40px 0;
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-}
+   } */

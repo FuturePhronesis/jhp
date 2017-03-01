@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="css/photogallery.css"/>
     <script type="text/javascript" src="javascript/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="javascript/annotation.js"></script>
-    <title>Social Engagement</title>
+    <script type="text/javascript" src="javascript/gallery.js"></script>
+    <title>News & Politics</title>
 </head>
 <html lang="en">
-
 <ul>
     <li><a href="index.html"><img src="images/justperf.png" style="width:60px; height:26px"></a></li>
     <!--- <li><a href="news.asp">Articles</a></li>
@@ -20,73 +20,252 @@
 <blockquote>
     <h1>News & Politics</h1>
     <h3>The "Spirit of America" Tea Party Rally<br>
-        February 27, 2017. Atlanta, Georgia</h3>
-    <div class="gallery cf">
-        <div>
-            <img src="images/" />
+        February 27, 2017 - Atlanta, Georgia.</h3>
+    <div class="textpad"></div>
+    <div class="row ">
+        <div class="column">
+            <img id="gallery" src="images/feb27_01.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_02.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_03.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_04.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_05.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_06.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_07.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_08.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_09.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_10.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_12.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_13.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_14.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_15.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_16.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_17.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_18.jpg" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_19.jpg" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_20.jpg" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_21.jpg" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
         </div>
-        <div>
-            <img src="images/" />
+        <div class="column">
+            <img id="gallery" src="images/feb27_22.jpg" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
         </div>
+        <div class="column">
+            <img id="gallery" src="images/feb27_23.jpg" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="images/feb27_01.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_02.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_03.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_04.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="images/feb27_05.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_06.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_07.jpg">
+            </div>
+
+            <div class="mySlides">
+            <img src="images/feb27_08.jpg">
+            </div>
+
+            <div class="mySlides">
+            <img src="images/feb27_09.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_10.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_11.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_12.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_13.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_14.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_15.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_16.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_17.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_18.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_19.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_20.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_21.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_22.jpg">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/feb27_23.jpg">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_01.jpg"  onclick="currentSlide(1)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_02.jpg"  onclick="currentSlide(2)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_03.jpg"  onclick="currentSlide(3)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_04.jpg"  onclick="currentSlide(4)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_05.jpg"  onclick="currentSlide(5)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_06.jpg"  onclick="currentSlide(6)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_07.jpg"  onclick="currentSlide(7)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_08.jpg"  onclick="currentSlide(8)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_09.jpg"  onclick="currentSlide(9)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_10.jpg"  onclick="currentSlide(10)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_11.jpg"  onclick="currentSlide(11)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_12.jpg"  onclick="currentSlide(12)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_13.jpg"  onclick="currentSlide(13)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_14.jpg"  onclick="currentSlide(14)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_15.jpg"  onclick="currentSlide(15)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_16.jpg"  onclick="currentSlide(16)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_17.jpg"  onclick="currentSlide(17)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_18.jpg"  onclick="currentSlide(18)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_19.jpg"  onclick="currentSlide(19)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_20.jpg"  onclick="currentSlide(20)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_21.jpg"  onclick="currentSlide(21)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_22.jpg"  onclick="currentSlide(22)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/feb27_23.jpg"  onclick="currentSlide(23)">
+            </div>
+        </div>
+    </div>
 </blockquote>
 </html>
