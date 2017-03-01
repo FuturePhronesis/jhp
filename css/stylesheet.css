@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /* Nav Styling */
 ul {
     position: absolute;
@@ -9,6 +13,7 @@ ul {
     margin: 0;
     padding: 0 5.5em;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 li a {
@@ -109,15 +114,26 @@ h3 {
 /* Accordion Styling */
 /* ----GREY---- */
 /*----- Accordion -----*/
-.accordion, .accordion * {
+.accordion, .accordion *,
+.accordion-red, .accordion *,
+.accordion-blue, .accordion *,
+.accordion-green, .accordion *,
+.accordion-purple, .accordion *,
+.accordion-yellow, .accordion *
+{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
 }
 
 /*----- Section Titles -----*/
-
-.accordion-section-title {
+.accordion-section-title,
+.accordion-section-title-red,
+.accordion-section-title-blue,
+.accordion-section-title-green,
+.accordion-section-title-purple,
+.accordion-section-title-yellow
+{
     text-decoration: none;
     color: black;
     background: #dbdbdb;
@@ -126,30 +142,63 @@ h3 {
     font-family: "Source Sans Pro";
 }
 
-.accordion-section-title.active {
-    background:darkgrey;
-    /* Type */
-    text-decoration:none;
+.accordion-section-title-red {
+    background: #FF6F6F;
+}
+.accordion-section-title-blue {
+    background: #BCC7E5;
+}
+.accordion-section-title-green {
+    background: #BFEFBF;
+}
+.accordion-section-title-purple {
+    background:  #A988B0;
+}
+.accordion-section-title-yellow {
+    background:  #FDF0BD;
+}
 
 }
-.accordion-section:last-child .accordion-section-title {
+.accordion-section:last-child .accordion-section-title,
+.accordion-section-red:last-child .accordion-section-title-red,
+.accordion-section-blue:last-child .accordion-section-title-blue,
+.accordion-section-green:last-child .accordion-section-title-green,
+.accordion-section-purple:last-child .accordion-section-title-purple,
+.accordion-section-yellow:last-child .accordion-section-title-yellow,
+{
     border-bottom:none;
 }
 
-a.accordion-section-title::after
+a.accordion-section-title::after,
+a.accordion-section-title-red::after,
+a.accordion-section-title-blue::after,
+a.accordion-section-title-green::after,
+a.accordion-section-title-purple::after,
+a.accordion-section-title-yellow::after
 {
     content: "[+]";
     font-size: 14px;
     vertical-align: middle; }
 
-a.accordion-section-title.active::after
+a.accordion-section-title.active::after,
+a.accordion-section-title-red.active::after,
+a.accordion-section-title-blue.active::after,
+a.accordion-section-title-green.active::after,
+a.accordion-section-title-purple.active::after,
+a.accordion-section-title-yellow.active::after
 {
     content: "[-]";
     font-size: 14px;
     vertical-align: middle;}
 
 /*----- Section Content -----*/
-.accordion-section-content {
+.accordion-section-content,
+.accordion-section-content-red,
+.accordion-section-content-blue,
+.accordion-section-content-green,
+.accordion-section-content-purple,
+.accordion-section-content-yellow
+{
     padding:15px;
     display:none;
     background: whitesmoke;
@@ -160,274 +209,20 @@ a.accordion-section-title.active::after
     color: black;
     font-family: "Source Sans Pro";
 }
-
-/* -----RED-----*/
-/*Accordion*/
-.accordion-red, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-}
-
-/* Section Title*/
-.accordion-section-title-red {
-    text-decoration: none;
-    color: black;
-    background: #FF6F6F;
-    padding: 1.5px;
-    border-radius: 4px;
-    font-family: "Source Sans Pro";
-}
-
-.accordion-section-title.active-red {
-    background:darkgrey;
-    /* Type */
-    text-decoration:none;
-
-}
-.accordion-section-red:last-child .accordion-section-title-red {
-    border-bottom:none;
-}
-
-a.accordion-section-title-red::after
-{
-    content: "[+]";
-    font-size: 14px;
-    vertical-align: middle; }
-
-a.accordion-section-title-red.active::after
-{
-    content: "[-]";
-    font-size: 14px;
-    vertical-align: middle;}
-
-/* Section Content */
 .accordion-section-content-red {
-    padding:15px;
-    display:none;
     background: #FF9999;
-    border-radius: 5px;
-    margin: 1em 0;
-    /*type*/
-    font-size: 12pt;
-    color: black;
-    font-family: "Source Sans Pro";
 }
-
-/* ---BLUE--- */
-/*Accordion*/
-.accordion-blue, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-}
-
-/* Section Title*/
-.accordion-section-title-blue {
-    text-decoration: none;
-    color: black;
-    background: #BCC7E5;
-    padding: 1.5px;
-    border-radius: 4px;
-    font-family: "Source Sans Pro";
-}
-
-.accordion-section-title.active-blue {
-    background:darkgrey;
-    /* Type */
-    text-decoration:none;
-
-}
-.accordion-section-blue:last-child .accordion-section-title-blue {
-    border-bottom:none;
-}
-
-a.accordion-section-title-blue::after
-{
-    content: "[+]";
-    font-size: 14px;
-    vertical-align: middle; }
-
-a.accordion-section-title-blue.active::after
-{
-    content: "[-]";
-    font-size: 14px;
-    vertical-align: middle;}
-
-/* Section Content */
 .accordion-section-content-blue {
-    padding: 15px;
-    display: none;
     background: #E6EBF8;
-    border-radius: 5px;
-    margin: 1em 0;
-    /*type*/
-    font-size: 12pt;
-    color: black;
-    font-family: "Source Sans Pro";
 }
-
-/* -------GREEN-------- */
-/*Accordion*/
-.accordion-green, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-}
-
-/* Section Title*/
-.accordion-section-title-green {
-    text-decoration: none;
-    color: black;
-    background: #BFEFBF;
-    padding: 1.5px;
-    border-radius: 4px;
-    font-family: "Source Sans Pro";
-}
-
-/*.accordion-section-title.active-green {
-    background:darkgrey;
-    /* Type */
-   /* text-decoration:none;
-
-}*/
-.accordion-section-green:last-child .accordion-section-title-green {
-    border-bottom:none;
-}
-
-a.accordion-section-title-green::after
-{
-    content: "[+]";
-    font-size: 14px;
-    vertical-align: middle; }
-
-a.accordion-section-title-green.active::after
-{
-    content: "[-]";
-    font-size: 14px;
-    vertical-align: middle;}
-
-/* Section Content */
 .accordion-section-content-green {
-    padding: 15px;
-    display: none;
     background: #E6FAE6;
-    border-radius: 5px;
-    margin: 1em 0;
-    /*type*/
-    font-size: 12pt;
-    color: black;
-    font-family: "Source Sans Pro";
 }
-
-/* ------PURPLE------ */
-/*Accordion*/
-.accordion-purple, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-}
-
-/* Section Title*/
-.accordion-section-title-purple {
-    text-decoration: none;
-    color: black;
-    background:  #A988B0;
-    padding: 1.5px;
-    border-radius: 4px;
-    font-family: "Source Sans Pro";
-}
-
-/*.accordion-section-title.active-purple {
-    background:darkgrey;
-    /* Type */
-    /*text-decoration:none;
-}*/
-
-.accordion-section-purple:last-child .accordion-section-title-purple {
-    border-bottom:none;
-}
-
-a.accordion-section-title-purple::after
-{
-    content: "[+]";
-    font-size: 14px;
-    vertical-align: middle;
-}
-
-a.accordion-section-title-purple.active::after
-{
-    content: "[-]";
-    font-size: 14px;
-    vertical-align: middle;
-}
-
-/* Section Content */
 .accordion-section-content-purple {
-    padding: 15px;
-    display: none;
     background: #C9B3CD;
-    border-radius: 5px;
-    margin: 1em 0;
-    /*type*/
-    font-size: 12pt;
-    color: black;
-    font-family: "Source Sans Pro";
 }
-
-/* --------YELLOW------ */
-    /*Accordion*/
-.accordion-yellow, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-}
-
-/* Section Title*/
-.accordion-section-title-yellow {
-    text-decoration: none;
-    color: black;
-    background:  #FDF0BD;
-    padding: 1.5px;
-    border-radius: 4px;
-    font-family: "Source Sans Pro";
-}
-
-/*.accordion-section-title.active-purple {
-    background:darkgrey;
-    /* Type */
-/*text-decoration:none;
-}*/
-
-.accordion-section-yellow:last-child .accordion-section-title-yellow {
-    border-bottom:none;
-}
-
-a.accordion-section-title-yellow::after
-{
-    content: "[+]";
-    font-size: 14px;
-    vertical-align: middle;
-}
-
-a.accordion-section-title-yellow.active::after
-{
-    content: "[-]";
-    font-size: 14px;
-    vertical-align: middle;
-}
-
-/* Section Content */
 .accordion-section-content-yellow {
-    padding: 15px;
-    display: none;
     background: #FFF8DE;
-    border-radius: 5px;
-    margin: 1em 0;
-    /*type*/
-    font-size: 12pt;
-    color: black;
-    font-family: "Source Sans Pro";
 }
 
 /* ----CONTACT FORM------ */
