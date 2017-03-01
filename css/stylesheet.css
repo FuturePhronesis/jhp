@@ -51,10 +51,14 @@ img {
     height: auto;
 }
 blockquote {
-    padding: 80px;
+    padding: 0 80px;
     display: block;
     font-size: 18px;
     font-family: "Source Sans Pro";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
 }
 h1 {
     text-align: center;
@@ -267,3 +271,34 @@ input[type=submit]:hover {
     width: 45%;
 }
 
+/* ---FOOTER--- */
+.footpad {
+    padding: 15px;
+
+}
+
+.footer {
+    position: absolute;
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_content {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#footer {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+}
