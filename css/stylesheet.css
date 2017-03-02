@@ -274,12 +274,11 @@ input[type=submit]:hover {
 /* ---FOOTER--- */
 .footpad {
     padding: 15px;
-
 }
 
 .footer {
     position: absolute;
-    padding: 25px;
+    padding: 10px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -288,17 +287,49 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
 }
-.footer_content {
+
+.icon-box {
+    padding: 5px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.insta {
+    float: right;
+    }
+
+.youtube {
+    float: right;
+}
+
+.email {
+    float: right;
+
+}
+
+.footer-content-insta,
+.footer-content-youtube,
+.footer-content-email
+{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
 }
 
-#footer {
+#footer-insta,
+#footer-youtube,
+#footer-email
+{
     position: relative;
     display: inline-block;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    align-content: center;
+    padding: 2px;
+}
+
+#footer-content:hover {
+
 }

@@ -29,6 +29,23 @@ img {
     width: 25%;
 }
 
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+.row {
+    max-width: 100%;
+    height: auto;
+     }
+
+.column {
+    max-width: 100%;
+    height: auto;
+}
+}
 /* The Modal (background) */
 .modal {
     display: none;
