@@ -296,22 +296,17 @@ input[type=submit]:hover {
     box-sizing: border-box;
 }
 
-.insta {
+.insta,
+.youtube,
+.email,
+.twitter {
     float: right;
     }
 
-.youtube {
-    float: right;
-}
-
-.email {
-    float: right;
-
-}
-
 .footer-content-insta,
 .footer-content-youtube,
-.footer-content-email
+.footer-content-email,
+.footer-content-twitter
 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -321,7 +316,8 @@ input[type=submit]:hover {
 
 #footer-insta,
 #footer-youtube,
-#footer-email
+#footer-email,
+#footer-twitter
 {
     position: relative;
     display: inline-block;
