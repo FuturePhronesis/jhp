@@ -28,7 +28,9 @@ li a {
 }
 
 li a:hover {
-    background-color: #e0e0e0;
+    /* background-color: #e0e0e0; */
+    opacity: 0.5;
+    color: #979696;
 }
 
 .active {
@@ -326,6 +328,10 @@ input[type=submit]:hover {
     padding: 2px;
 }
 
-#footer-content:hover {
-
+.insta:hover,
+.youtube:hover,
+.email:hover,
+.twitter:hover {
+    opacity: 0.5;
+    color: #979696;
 }
