@@ -1,37 +1,38 @@
 .nav-rotate {
-    -webkit-transform:rotate(180deg);
-    -moz-transform:rotate(180deg);
-    -ms-transform:rotate(180deg);
-    -o-transform:rotate(180deg);
-    transform:rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
     .nav-item:hover .nav-submenu {
-        display:none;
+        display: none;
     }
 }
 
 .nav-submenu {
-    display:none !important;
+    display: none !important;
 }
 
 .nav-click {
-    position:absolute;
-    top:0;
-    right:0;
-    display:none;
-    border-left:1px solid #8B2870;
-    height:49px;
-    width:50px;
-    cursor:pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    border-left: 1px solid #8B2870;
+    height: 49px;
+    width: 50px;
+    cursor: pointer;
 }
+
 .nav-click i {
-    display:block;
-    height:48px;
-    width:48px;
-    background:url(../img/drop.svg) no-repeat center center;
-    background-size:20px;
+    display: block;
+    height: 48px;
+    width: 48px;
+    background: url(../img/drop.svg) no-repeat center center;
+    background-size: 20px;
 }
 
 /*body {margin:0;}
@@ -93,8 +94,9 @@ ul.topnav li.icon {display: none;}
     }
 }*/
 
-
-body {margin:0;}
+body {
+    margin: 0;
+}
 
 .topnav {
     overflow: hidden;
@@ -129,7 +131,10 @@ body {margin:0;}
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
     .topnav a.icon {
         float: right;
         display: block;
@@ -137,12 +142,16 @@ body {margin:0;}
 }
 
 @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+    }
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav.responsive a {
         float: none;
         display: block;
@@ -190,20 +199,20 @@ a {
 /* HEADER */
 /*.header {
     /*position: fixed;*/
-   /* left: 0;
-    right: 0;
-    height: 66px;
-    font-family: "Source Code Pro";
-    line-height: 66px;
-    color: #000000;
+/* left: 0;
+ right: 0;
+ height: 66px;
+ font-family: "Source Code Pro";
+ line-height: 66px;
+ color: #000000;
 
-    background-color: #f3f3f3;
+ background-color: #f3f3f3;
 }
 
 .header__logo {
-    font-weight: 700;
-    padding: 0 25px;
-    float: left;
+ font-weight: 700;
+ padding: 0 25px;
+ float: left;
 }
 
 /* MENU */
@@ -281,17 +290,17 @@ a:hover {
     /*    overflow-y: scroll;
         -webkit-overflow-scrolling: touch;*/
 
-   /* width: $menu-width;
+/* width: $menu-width;
 
 @include transform(translateX($menu-width * -1));
 a {
-    display: block;
-    height: 40px;
+ display: block;
+ height: 40px;
 
-    text-align: center;
-    line-height: 40px;
+ text-align: center;
+ line-height: 40px;
 
-    border-bottom: 1px solid $header-bg;
+ border-bottom: 1px solid $header-bg;
 }
 }
 
@@ -300,12 +309,12 @@ a {
 @include transform(translateX($menu-width));
 }
 .site-cache {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.6);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0,0,0,0.6);
 }
 }
 }

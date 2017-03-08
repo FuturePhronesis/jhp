@@ -14,7 +14,7 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-     background-color: #f3f3f3;
+    background-color: #f3f3f3;
     list-style-type: none;
     margin: 0;
     padding: 0 5.5em;
@@ -58,6 +58,7 @@ li a:hover {
     max-width: 100%;
     height: auto;
 }
+
 blockquote {
     padding: 0 80px;
     display: block;
@@ -68,16 +69,19 @@ blockquote {
     box-sizing: border-box;
     margin: 0;
 }
+
 h1 {
     text-align: center;
     font-family: "Source Sans Pro";
     margin: 10px;
 }
+
 h2 {
     text-align: center;
     font-family: "Source Sans Pro";
     margin: 8px;
 }
+
 h3 {
     text-align: center;
     font-family: "Source Sans Pro";
@@ -122,7 +126,6 @@ h3 {
     text-indent: 50px;
 }
 
-
 /* Accordion Styling */
 /* ----GREY---- */
 /*----- Accordion -----*/
@@ -131,11 +134,10 @@ h3 {
 .accordion-blue, .accordion *,
 .accordion-green, .accordion *,
 .accordion-purple, .accordion *,
-.accordion-yellow, .accordion *
-{
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+.accordion-yellow, .accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*----- Section Titles -----*/
@@ -144,8 +146,7 @@ h3 {
 .accordion-section-title-blue,
 .accordion-section-title-green,
 .accordion-section-title-purple,
-.accordion-section-title-yellow
-{
+.accordion-section-title-yellow {
     text-decoration: none;
     color: black;
     background: #dbdbdb;
@@ -157,17 +158,21 @@ h3 {
 .accordion-section-title-red {
     background: #FF6F6F;
 }
+
 .accordion-section-title-blue {
     background: #BCC7E5;
 }
+
 .accordion-section-title-green {
     background: #BFEFBF;
 }
+
 .accordion-section-title-purple {
-    background:  #A988B0;
+    background: #A988B0;
 }
+
 .accordion-section-title-yellow {
-    background:  #FDF0BD;
+    background: #FDF0BD;
 }
 
 }
@@ -178,7 +183,7 @@ h3 {
 .accordion-section-purple:last-child .accordion-section-title-purple,
 .accordion-section-yellow:last-child .accordion-section-title-yellow,
 {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 a.accordion-section-title::after,
@@ -186,22 +191,22 @@ a.accordion-section-title-red::after,
 a.accordion-section-title-blue::after,
 a.accordion-section-title-green::after,
 a.accordion-section-title-purple::after,
-a.accordion-section-title-yellow::after
-{
+a.accordion-section-title-yellow::after {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
 a.accordion-section-title.active::after,
 a.accordion-section-title-red.active::after,
 a.accordion-section-title-blue.active::after,
 a.accordion-section-title-green.active::after,
 a.accordion-section-title-purple.active::after,
-a.accordion-section-title-yellow.active::after
-{
+a.accordion-section-title-yellow.active::after {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /*----- Section Content -----*/
 .accordion-section-content,
@@ -209,10 +214,9 @@ a.accordion-section-title-yellow.active::after
 .accordion-section-content-blue,
 .accordion-section-content-green,
 .accordion-section-content-purple,
-.accordion-section-content-yellow
-{
-    padding:15px;
-    display:none;
+.accordion-section-content-yellow {
+    padding: 15px;
+    display: none;
     background: whitesmoke;
     border-radius: 5px;
     margin: 1em 0;
@@ -221,18 +225,23 @@ a.accordion-section-title-yellow.active::after
     color: black;
     font-family: "Source Sans Pro";
 }
+
 .accordion-section-content-red {
     background: #FF9999;
 }
+
 .accordion-section-content-blue {
     background: #E6EBF8;
 }
+
 .accordion-section-content-green {
     background: #E6FAE6;
 }
+
 .accordion-section-content-purple {
     background: #C9B3CD;
 }
+
 .accordion-section-content-yellow {
     background: #FFF8DE;
 }
@@ -309,13 +318,12 @@ input[type=submit]:hover {
 .email,
 .twitter {
     float: right;
-    }
+}
 
 .footer-content-insta,
 .footer-content-youtube,
 .footer-content-email,
-.footer-content-twitter
-{
+.footer-content-twitter {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -325,8 +333,7 @@ input[type=submit]:hover {
 #footer-insta,
 #footer-youtube,
 #footer-email,
-#footer-twitter
-{
+#footer-twitter {
     position: relative;
     display: inline-block;
     max-width: 50%;

@@ -36,10 +36,12 @@ blockquote {
     font-size: 18px;
     font-family: "Source Sans Pro";
 }
+
 h1 {
     text-align: center;
     font-family: "Source Sans Pro";
 }
+
 p {
     font-family: "Source Sans Pro";
 }
@@ -47,9 +49,9 @@ p {
 /* ----GREY---- */
 /*----- Accordion -----*/
 .accordion, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*----- Section Titles -----*/
@@ -64,31 +66,32 @@ p {
 }
 
 .accordion-section-title.active {
-    background:darkgrey;
+    background: darkgrey;
     /* Type */
-    text-decoration:none;
+    text-decoration: none;
 
 }
+
 .accordion-section:last-child .accordion-section-title {
-    border-bottom:none;
+    border-bottom: none;
 }
 
-a.accordion-section-title::after
-{
+a.accordion-section-title::after {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
-a.accordion-section-title.active::after
-{
+a.accordion-section-title.active::after {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /*----- Section Content -----*/
 .accordion-section-content {
-    padding:15px;
-    display:none;
+    padding: 15px;
+    display: none;
     background: whitesmoke;
     border-radius: 5px;
     margin: 1em 0;
@@ -101,9 +104,9 @@ a.accordion-section-title.active::after
 /* -----RED-----*/
 /*Accordion*/
 .accordion-red, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Section Title*/
@@ -117,31 +120,32 @@ a.accordion-section-title.active::after
 }
 
 .accordion-section-title.active-red {
-    background:darkgrey;
+    background: darkgrey;
     /* Type */
-    text-decoration:none;
+    text-decoration: none;
 
 }
+
 .accordion-section-red:last-child .accordion-section-title-red {
-    border-bottom:none;
+    border-bottom: none;
 }
 
-a.accordion-section-title-red::after
-{
+a.accordion-section-title-red::after {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
-a.accordion-section-title-red.active::after
-{
+a.accordion-section-title-red.active::after {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /* Section Content */
 .accordion-section-content-red {
-    padding:15px;
-    display:none;
+    padding: 15px;
+    display: none;
     background: #fca8a6;
     border-radius: 5px;
     margin: 1em 0;
@@ -154,9 +158,9 @@ a.accordion-section-title-red.active::after
 /* ---BLUE--- */
 /*Accordion*/
 .accordion-blue, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Section Title*/
@@ -170,26 +174,27 @@ a.accordion-section-title-red.active::after
 }
 
 .accordion-section-title.active-blue {
-    background:darkgrey;
+    background: darkgrey;
     /* Type */
-    text-decoration:none;
+    text-decoration: none;
 
 }
+
 .accordion-section-blue:last-child .accordion-section-title-blue {
-    border-bottom:none;
+    border-bottom: none;
 }
 
-a.accordion-section-title-blue::after
-{
+a.accordion-section-title-blue::after {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
-a.accordion-section-title-blue.active::after
-{
+a.accordion-section-title-blue.active::after {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /* Section Content */
 .accordion-section-content-blue {
@@ -207,9 +212,9 @@ a.accordion-section-title-blue.active::after
 /* -------GREEN-------- */
 /*Accordion*/
 .accordion-green, .accordion * {
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Section Title*/
@@ -223,26 +228,27 @@ a.accordion-section-title-blue.active::after
 }
 
 .accordion-section-title.active-green {
-    background:darkgrey;
+    background: darkgrey;
     /* Type */
-    text-decoration:none;
+    text-decoration: none;
 
 }
+
 .accordion-section-green:last-child .accordion-section-title-green {
-    border-bottom:none;
+    border-bottom: none;
 }
 
-a.accordion-section-title-green::after
-{
+a.accordion-section-title-green::after {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
-a.accordion-section-title-green.active::after
-{
+a.accordion-section-title-green.active::after {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /* Section Content */
 .accordion-section-content-green {
@@ -257,44 +263,45 @@ a.accordion-section-title-green.active::after
     font-family: "Source Sans Pro";
 
 /* ------TEAL------ */
-    /*Accordion*/
-    .accordion-teal, .accordion * {
-        -webkit-box-sizing:border-box;
-        -moz-box-sizing:border-box;
-        box-sizing:border-box;
-    }
+/*Accordion*/
+.accordion-teal, .accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /* Section Title*/
 .accordion-section-title-teal {
     text-decoration: none;
     color: black;
-    background:  #56ffe8;
+    background: #56ffe8;
     padding: 1.5px;
     border-radius: 4px;
     font-family: "Source Sans Pro";
 }
 
 .accordion-section-title.active-teal {
-    background:darkgrey;
+    background: darkgrey;
     /* Type */
-    text-decoration:none;
+    text-decoration: none;
 
 }
+
 .accordion-section-teal:last-child .accordion-section-title-teal {
-    border-bottom:none;
+    border-bottom: none;
 }
 
-a.accordion-section-title-teal::after
-{
+a.accordion-section-title-teal::after {
     content: "[+]";
     font-size: 14px;
-    vertical-align: middle; }
+    vertical-align: middle;
+}
 
-a.accordion-section-title-teal.active::after
-{
+a.accordion-section-title-teal.active::after {
     content: "[-]";
     font-size: 14px;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 
 /* Section Content */
 .accordion-section-content-teal {
