@@ -127,7 +127,6 @@ h3 {
 }
 
 /* Accordion Styling */
-/* ----GREY---- */
 /*----- Accordion -----*/
 .accordion, .accordion *,
 .accordion-red, .accordion *,
@@ -247,7 +246,7 @@ a.accordion-section-title-yellow.active::after {
 }
 
 /* ----CONTACT FORM------ */
-/* Style inputs with type="text", select elements and textareas */
+/* Style inputs with type="text", select elements and text areas */
 input[type=text], select, textarea {
     width: 75%; /* Full width */
     padding: 12px; /* Some padding */

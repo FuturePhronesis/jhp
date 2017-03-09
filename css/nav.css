@@ -127,7 +127,8 @@ body {
 #jhp {
     max-width: 50%;
     height: auto;
-    float: left;
+    float: none;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
