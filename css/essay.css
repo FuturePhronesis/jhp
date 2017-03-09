@@ -1,5 +1,5 @@
 /* Nav Styling */
-ul {
+/*ul {
     position: absolute;
     top: 0;
     left: 0;
@@ -45,13 +45,6 @@ li a:hover {
     max-width: 100%;
     height: auto;
 }
-
-/*img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
-}*/
 
 blockquote {
     padding: 80px;
@@ -171,7 +164,7 @@ a:link {
 }
 
 a:visited {
-    color: #5A5959;
+    color: #000000;
     text-decoration: none;
 }
 
