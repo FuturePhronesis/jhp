@@ -1,4 +1,4 @@
-.nav-rotate {
+/*.nav-rotate {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -157,7 +157,11 @@ body {
         display: block;
         text-align: left;
     }
-
+    topnav.responsive #jhp {
+        max-width: 50%;
+        height: auto;
+        float: left;
+    }
 }
 
 /* ---SIDE BAR NAV--- */
