@@ -2,13 +2,6 @@ body {
     margin: 0;
 }
 
-/* Nav Styling */
-/*#jhp {
-    max-width: 50%;
-    height: auto;
-    float: left;
-}*/
-
 ul {
     position: absolute;
     top: 0;
@@ -55,7 +48,7 @@ li a:hover {
 #jhp-hero {
     display: block;
     margin: auto;
-    max-width: 100%;
+    max-width: 55%;
     height: auto;
 }
 
