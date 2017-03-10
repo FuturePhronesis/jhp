@@ -1,0 +1,48 @@
+html {
+    font-family: "Source Code Pro";
+    font-size: 18px;
+}
+html {
+    font-family: sans-serif;
+}
+
+.article-body {
+    line-height: 1.66667;
+}
+
+#article .article-body {
+    margin: 30px 0;
+}
+
+#article .article-body > section {
+@include fluid-container;
+    max-width: $article-width;
+    padding-right: $container-width - $article-width;
+@media(max-width: $container-width + $breakpoint-padding) {
+    padding-right: inherit;
+}
+}
+
+#article .article-body > .full-width {
+@include fluid-container;
+    max-width: $container-width;
+    margin-left: calc(50% - 480px);
+@media(max-width: $container-width + $breakpoint-padding) {
+    max-width: $article-width !important;  // Inline style is the image width
+                                              margin-left: auto;
+}
+}
+
+p[Attributes Style] {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+

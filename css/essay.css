@@ -1,34 +1,4 @@
-/* Nav Styling */
-/*ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f3f3f3;
-    list-style-type: none;
-    margin: 0;
-    padding: 0 5.5em;
-    overflow: hidden;
-}
 
-li a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: "Source Sans Pro";
-}
-
-li a:hover {
-    background-color: #e0e0e0;
-}
-
-.active {
-    background-color: #cce5ff;
-}
 
 /* Page Styling */
 .div-top {
@@ -139,6 +109,7 @@ h3 {
     border-radius: 4px;
     width: 320px;
     margin: 1em;
+    text-align: center;
 }
 
 .image-box {
@@ -161,16 +132,19 @@ h3 {
 a:link {
     color: #000000;
     text-decoration: none;
+    font-family: "Source Code Pro";
 }
 
 a:visited {
     color: #000000;
     text-decoration: none;
+    font-family: "Source Code Pro";
 }
 
 a:hover {
     color: #979696;
     text-decoration: none;
+    font-family: "Source Code Pro";
 }
 
 img:hover {

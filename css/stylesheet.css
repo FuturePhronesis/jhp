@@ -2,30 +2,6 @@ body {
     margin: 0;
 }
 
-ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f3f3f3;
-    list-style-type: none;
-    margin: 0;
-    padding: 0 5.5em;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-li a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    font-size: 18px;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: "Source Sans Pro";
-}
-
 li a:hover {
     /* background-color: #e0e0e0; */
     opacity: 0.5;
@@ -126,22 +102,37 @@ h4 {
 }
 
 /* ---- POEM FORMAT ---- */
-.stanza {
+/*.stanza {
     text-indent: 50px;
     text-align: left;
     font-size: 16px;
-}
+    padding: 0 80px;
+    display: block;
+    font-family: "Source Sans Pro";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}*/
 
 h1.poem {
     text-indent: 50px;
     font-family: "Source Sans Pro";
     margin: 10px;
+    text-align: left;
+    padding: 0 80px;
+    display: block;
+    box-sizing: border-box;
 }
 
 h2.poem {
     text-indent: 50px;
     font-family: "Source Sans Pro";
     margin: 8px;
+    text-align: left;
+    padding: 0 80px;
+    display: block;
+    box-sizing: border-box;
 }
 
 h3.poem {
@@ -149,6 +140,9 @@ h3.poem {
     font-family: "Source Sans Pro";
     margin: 6px;
     text-align: left;
+    padding: 0 80px;
+    display: block;
+    box-sizing: border-box;
 }
 
 #subhead {
@@ -207,7 +201,6 @@ h3.poem {
     background: #FDF0BD;
 }
 
-}
 .accordion-section:last-child .accordion-section-title,
 .accordion-section-red:last-child .accordion-section-title-red,
 .accordion-section-blue:last-child .accordion-section-title-blue,
