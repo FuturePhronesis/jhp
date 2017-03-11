@@ -23,11 +23,13 @@
     <meta name="keywords" content="essays, george orwell, notes on nationalism">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="css/accordion.css"/>
+    <link rel="stylesheet" type="text/css" href="css/article.css"/>
     <link rel="stylesheet" type="text/css" href="css/nav.css"/>
     <script type="text/javascript" src="javascript/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="javascript/annotation.js"></script>
     <script type="text/javascript" src="javascript/nav.js"></script>
+    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
     <title>Notes on Nationalism</title>
 </head>
 <div class="topnav" id="myTopnav">
@@ -37,8 +39,13 @@
     <a href="photography.html">Photography</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-<blockquote>
-    <div class="div-top"></div>
+<body>
+<a name="article-top"></a>
+<div class="article-head">
+    <div class="hero-img">
+        <img id="hero" src="images/orwell-hero.png" alt="George Orwell">
+    </div>
+    <div class="article-pad"></div>
     <em>As you read through this and other pieces, you might find some words there and there that are
         <span class="accordion">
         <span class="accordion-section">
@@ -54,11 +61,13 @@
         Give 'em a click. They'll jump around a bit for you and give you a bit more context for what your reading.
         And if they don't jump around for you, let me know - that means something is broken and somebody's gotta fix it.
     </em>
-    <div class="textpad"></div>
-
+<div class="article-pad"></div>
     <h1>Notes on Nationalism</h1>
-    <h2>George Orwell - 1945</h2>
-    <span class="dropcap">S</span><span class="dropcapword">omewhere</span> or other Byron makes use of the
+    <h2 id="subhead">George Orwell - 1945</h2>
+</div>
+<div class="article-body">
+    <section id="article-section-1">
+    <p><span class="dropcap">S</span><span class="dropcapword">omewhere</span> or other Byron makes use of the
     French word <em>longeur,</em> and remarks in passing that though in
     England we happen not to have the word, we have the thing in considerable profusion. In the same way,
     there is a habit of mind which is now so widespread that it affects our thinking on nearly every subject,
@@ -67,8 +76,8 @@
     if only because the emotion I am speaking about does not always attach itself to what is called a
     nation — that is, a single race or a geographical area. It can attach itself to a church or a class,
     or it may work in a merely negative sense, against something or other and without the need for any
-    positive object of loyalty.
-    <p></p>
+    positive object of loyalty.</p>
+
     By ‘nationalism’ I mean first of all the habit of assuming that human beings can be classified like
     insects and that whole blocks of millions or tens of millions of people can be confidently labelled
     <span class="accordion-red">
@@ -97,8 +106,8 @@
     defensive, both militarily and culturally. Nationalism, on the other hand, is inseparable from the
     desire for power. The abiding purpose of every nationalist is to secure more power and more prestige,
     not for himself but for the nation or other unit in which he has chosen to sink his own individuality.
-    <p></p>
-    So long as it is applied merely to the more notorious and identifiable nationalist movements in Germany,
+
+    <p>So long as it is applied merely to the more notorious and identifiable nationalist movements in Germany,
     Japan, and other countries, all this is obvious enough. Confronted with a phenomenon like Nazism, which
     we can observe from the outside, nearly all of us would say much the same things about it. But here I
     must repeat what I said above, that I am only using the word ‘nationalism’ for lack of a better.
@@ -108,9 +117,9 @@
     necessary that the units in which it deals should actually exist. To name a few obvious examples, Jewry,
     Islam, Christendom, the Proletariat and the White Race are all of them objects of passionate nationalistic
     feeling: but their existence can be seriously questioned, and there is no definition of any one of them
-    that would be universally accepted.
-    <p></p>
-    It is also worth emphasising once again that nationalist feeling can be purely negative. There are, for
+    that would be universally accepted.</p>
+
+        <p>It is also worth emphasising once again that nationalist feeling can be purely negative. There are, for
     example, Trotskyists who have become simply enemies of the U.S.S.R. without developing a corresponding
     loyalty to any other unit. When one grasps the implications of this, the nature of what I mean by nationalism
     becomes a good deal clearer. A nationalist is one who thinks solely, or mainly, in terms of competitive
@@ -124,9 +133,9 @@
     strongest, and is able to stick to his belief even when the facts are overwhelmingly against him. Nationalism
     is power-hunger tempered by self-deception. Every nationalist is capable of the most flagrant dishonesty,
     but he is also — since he is conscious of serving something bigger than himself — unshakeably certain of
-    being in the right.
-    <p></p>
-    Now that I have given this lengthy definition, I think it will be admitted that the habit of mind I am
+            being in the right.</p>
+
+    <p>Now that I have given this lengthy definition, I think it will be admitted that the habit of mind I am
     talking about is widespread among the English intelligentsia, and more widespread there than among the
     mass of the people. For those who feel deeply about contemporary politics, certain topics have become
     so infected by considerations of prestige that a genuinely rational approach to them is almost impossible.
@@ -184,9 +193,9 @@
     Nationalist to enjoy reading Kipling or for a Conservative to see merit in Mayakovsky, and there is
     always a temptation to claim that any book whose tendency one disagrees with must be a bad book from a
     literary point of view. People of strongly nationalistic outlook often perform this sleight of hand
-    without being conscious of dishonesty.
-    <p></p>
-    In England, if one simply considers the number of people involved, it is probable that the dominant
+        without being conscious of dishonesty.</p>
+
+    <p>In England, if one simply considers the number of people involved, it is probable that the dominant
     form of nationalism is old-fashioned British jingoism. It is certain that this is still widespread,
     and much more so than most observers would have believed a dozen years ago. However, in this essay I
     am concerned chiefly with the reactions of the intelligentsia, among whom jingoism and even patriotism
@@ -197,9 +206,10 @@
     Fatherland and feels it his duty t justify Russian policy and advance Russian interests at all costs.
     Obviously such people abound in England today, and their direct and indirect influence is very great.
     But many other forms of nationalism also flourish, and it is by noticing the points of resemblance
-    between different and even seemingly opposed currents of thought that one can best get the matter into perspective.
-    <p></p>
-    Ten or twenty years ago, the form of nationalism most closely corresponding to Communism today was
+    between different and even seemingly opposed currents of thought that one can best get the matter
+        into perspective.</p>
+
+    <p>Ten or twenty years ago, the form of nationalism most closely corresponding to Communism today was
     political Catholicism. Its most outstanding exponent — though he was perhaps an extreme case rather
     than a typical one — was G. K. Chesterton. Chesterton was a writer of considerable talent who whose
     to suppress both his sensibilities and his intellectual honesty in the cause of Roman Catholic propaganda.
@@ -226,15 +236,16 @@
     home, but Mussolini was an Italian and had made Italy strong, and that settled the matter. Nor did
     Chesterton ever find a word to say about imperialism and the conquest of coloured races when they were
     practised by Italians or Frenchmen. His hold on reality, his literary taste, and even to some extent
-    his moral sense, were dislocated as soon as his nationalistic loyalties were involved.
-    <p></p>
-    Obviously there are considerable resemblances between political Catholicism, as exemplified by Chesterton,
+        his moral sense, were dislocated as soon as his nationalistic loyalties were involved.</p>
+
+    <p>Obviously there are considerable resemblances between political Catholicism, as exemplified by Chesterton,
     and Communism. So there are between either of these and for instance Scottish nationalism, Zionism,
     Antisemitism or Trotskyism. It would be an oversimplification to say that all forms of nationalism
     are the same, even in their mental atmosphere, but there are certain rules that hold good in all
-    cases. The following are the principal characteristics of nationalist thought:
-    <p></p>
-    <em><span class="dropcap-intext">O</span><span class="dropcap-intext-word">bsession.</span></em>
+        cases. The following are the principal characteristics of nationalist thought:</p>
+    </section>
+    <section id="article-section-2">
+    <p><em><span class="dropcap-intext">O</span><span class="dropcap-intext-word">bsession.</span></em>
     As nearly as possible, no nationalist ever thinks, talks, or writes about anything except
     the superiority of his own power unit. It is difficult if not impossible for any nationalist to conceal
     his allegiance. The smallest slur upon his own unit, or any implied praise of a rival organization,
@@ -268,9 +279,9 @@
     insist on the superiority of Lowland Scots, and socialists whose nationalism takes the form of class
     hatred tirade against the B.B.C. accent and even the often gives the impression of being tinged by belief
     in symphatetic magic — a belief which probably comes out in the widespread custom of burning political
-    enemies in effigy, or using pictures of them as targets in shooting galleries.
-    <p></p>
-    <em><span class="dropcap-intext">I</span><span class="dropcap-intext-word">nstability.</span></em>
+        enemies in effigy, or using pictures of them as targets in shooting galleries.</p>
+
+   <p><em><span class="dropcap-intext">I</span><span class="dropcap-intext-word">nstability.</span></em>
     The intensity with which they are held does not prevent nationalist loyalties from being
     transferable. To begin with, as I have pointed out already, they can be and often are fastened up on
     some foreign country. One quite commonly finds that great national leaders, or the founders of nationalist
@@ -288,9 +299,10 @@
     into hostility. The bigoted Communist who changes in a space of weeks, or even days, into an equally
     bigoted Trotskyist is a common spectacle. In continental Europe Fascist movements were largely recruited
     from among Communists, and the opposite process may well happen within the next few years. What remains
-    constant in the nationalist is his state of mind: the object of his feelings is changeable, and may be imaginary.
-    <p></p>
-    But for an intellectual, transference has an important function which I have already mentioned shortly
+    constant in the nationalist is his state of mind: the object of his feelings is changeable,
+       and may be imaginary.</p>
+
+    <p>But for an intellectual, transference has an important function which I have already mentioned shortly
     in connection with Chesterton. It makes it possible for him to be much more nationalistic — more vulgar,
     more silly, more malignant, more dishonest — that he could ever be on behalf of his native country,
     or any unit of which he had real knowledge. When one sees the slavish or boastful rubbish that is
@@ -306,9 +318,9 @@
     has emancipated himself. God, the King, the Empire, the Union Jack — all the overthrown idols can
     reappear under different names, and because they are not recognised for what they are they can be
     worshipped with a good conscience. Transferred nationalism, like the use of scapegoats, is a way of
-    attaining salvation without altering one's conduct.
-    <p></p>
-    <em><span class="dropcap-intext">I</span><span class="dropcap-intext-word">ndifference to Reality.</span></em>
+        attaining salvation without altering one's conduct.</p>
+
+   <p><em><span class="dropcap-intext">I</span><span class="dropcap-intext-word">ndifference to Reality.</span></em>
     All nationalists have the power of not seeing resemblances between similar
     sets of facts. A British Tory will defend self-determination in Europe and oppose it in India with no
     feeling of inconsistency. Actions are held to be good or bad, not on their own merits, but according
@@ -339,9 +351,9 @@
     part of the world; and yet in not one single case were these atrocities — in Spain, Russia, China,
     Hungary, Mexico, Amritsar, Smyrna — believed in and disapproved of by the English intelligentsia as a
     whole. Whether such deeds were reprehensible, or even whether they happened, was always decided
-    according to political predilection.
-    <p></p>
-    The nationalist not only does not disapprove of atrocities committed by his own side, but he has a
+       according to political predilection.</p>
+
+   <p>The nationalist not only does not disapprove of atrocities committed by his own side, but he has a
     remarkable capacity for not even hearing about them. For quite six years the English admirers of
     Hitler contrived not to learn of the existence of Dachau and Buchenwald. And those who are loudest in
     denouncing the German concentration camps are often quite unaware, or only very dimly aware, that
@@ -352,9 +364,9 @@
     consciousness. In nationalist thought there are facts which are both true and untrue, known and unknown.
     A known fact may be so unbearable that it is habitually pushed aside and not allowed to enter into
     logical processes, or on the other hand it may enter into every calculation and yet never be admitted
-    as a fact, even in one's own mind.
-    <p></p>
-    Every nationalist is haunted by the belief that the past can be altered. He spends part of his time
+       as a fact, even in one's own mind.</p>
+
+    <p>Every nationalist is haunted by the belief that the past can be altered. He spends part of his time
     in a fantasy world in which things happen as they should — in which, for example, the Spanish Armada
     was a success or the Russian Revolution was crushed in 1918 — and he will transfer fragments of this
     world to the history books whenever possible. Much of the propagandist writing of our time amounts to
@@ -381,9 +393,9 @@
     been committed in order to show that Trotsky did not play a valuable part in the Russian civil war,
     it is difficult to feel that the people responsible are merely lying. More probably they feel that
     their own version was what happened in the sight of God, and that one is justified in rearranging the
-    records accordingly.
-    <p></p>
-    Indifference to objective truth is encouraged by the sealing-off of one part of the world from another,
+        records accordingly.</p>
+
+   <p>Indifference to objective truth is encouraged by the sealing-off of one part of the world from another,
     which makes it harder and harder to discover what is actually happening. There can often be a genuine
     doubt about the most enormous events. For example, it is impossible to calculate within millions,
     perhaps even tens of millions, the number of deaths caused by the present war. The calamities that
@@ -402,9 +414,11 @@
     by examining the facts to see whether they support him. All nationalist controversy is at the
     debating-society level. It is always entirely inconclusive, since each contestant invariably believes
     himself to have won the victory. Some nationalists are not far from schizophrenia, living quite happily
-    amid dreams of power and conquest which have no connection with the physical world.
-    <p></p>
-    <span class="dropcap">I</span> have examined as best as I can the mental habits which are common to all forms of
+       amid dreams of power and conquest which have no connection with the physical world.</p>
+    </section>
+
+    <section id="article-section-3">
+    <p><span class="dropcap">I</span> have examined as best as I can the mental habits which are common to all forms of
     nationalism.
     The next thing is to classify those forms, but obviously this cannot be done comprehensively.
     Nationalism is an enormous subject. The world is tormented by innumerable delusions and hatreds which
@@ -413,10 +427,10 @@
     the English intelligentsia. In them, much more than in ordinary English people, it is unmixed with
     patriotism and therefore can be studied pure. Below are listed the varieties of nationalism now flourishing
     among English intellectuals, with such comments as seem to be needed. It is convenient to use three
-    headings, Positive, Transferred, and Negative, though some varieties will fit into more than one category:
-    <p></p>
-    <h3>Positive Nationalism</h3>
-    <span class="dropcap-intext">(i)</span> <em><span class="dropcap-intext-word">Neo-toryism.</span></em>
+        headings, Positive, Transferred, and Negative, though some varieties will fit into more than one category:</p>
+
+        <p><h3>Positive Nationalism</h3></p>
+   <p> <span class="dropcap-intext">(i)</span> <em><span class="dropcap-intext-word">Neo-toryism.</span></em>
     Exemplified by such people as Lord Elton, A. P. Herbert, G. M. Young, Professor
     Pickthorn, by the literature of the Tory Reform Committee, and by such magazines as the <em>New English
     Review</em> and the <em>Nineteenth Century and After.</em> The real motive force of neo-Toryism, giving it its
@@ -429,9 +443,9 @@
     disillusionment and become disillusioned with that. The anglophobe who suddenly becomes violently
     pro-British is a fairly common figure. Writers who illustrate this tendency are F. A. Voigt, Malcolm
     Muggeridge, Evelyn Waugh, Hugh Kingsmill, and a psychologically similar development can be observed
-    in T. S. Eliot, Wyndham Lewis, and various of their followers.
-    <p></p>
-    <span class="dropcap-intext">(ii)</span> <em><span class="dropcap-intext-word">Celtic Nationalism.</span></em>
+        in T. S. Eliot, Wyndham Lewis, and various of their followers.</p>
+
+    <p><span class="dropcap-intext">(ii)</span> <em><span class="dropcap-intext-word">Celtic Nationalism.</span></em>
     Welsh, Irish
     and Scottish nationalism have points of difference but are alike
     in their anti-English orientation. Members of all three movements have opposed the war while continuing
@@ -443,9 +457,9 @@
     is the delusion that Eire, Scotland or even Wales could preserve its independence unaided and owes
     nothing to British protection. Among writers, good examples of this school of thought are Hugh
     McDiarmid and Sean O'Casey. No modern Irish writer, even of the stature of Yeats or Joyce, is
-    completely free from traces of nationalism.
-    <p></p>
-    <span class="dropcap-intext">(iii)</span> <em><span class="dropcap-intext-word">Zionism.</span></em> This the
+        completely free from traces of nationalism.</p>
+
+   <p><span class="dropcap-intext">(iii)</span> <em><span class="dropcap-intext-word">Zionism.</span></em> This the
     unusual
     characteristics of a nationalist movement, but the American variant
     of it seems to be more violent and malignant than the British. I classify it under Direct and not
@@ -453,14 +467,17 @@
     In England, for several rather incongruous reasons, the intelligentsia are mostly pro-Jew on the
     Palestine issue, but they do not feel strongly about it. All English people of goodwill are also
     pro-Jew in the sense of disapproving of Nazi persecution. But any actual nationalistic loyalty, or
-    belief in the innate superiority of Jews, is hardly to be found among Gentiles.
-    <h3>Transferred Nationalism</h3>
-    <span class="dropcap-intext">(i)</span> <em><span class="dropcap-intext-word">Communism.</span></em>
-    <div class="textpad"></div>
+       belief in the innate superiority of Jews, is hardly to be found among Gentiles.</p>
+    </section>
 
-    <span class="dropcap-intext">(ii)</span> <em><span class="dropcap-intext-word">Political Catholicism.</span></em>
-    <div class="textpad"></div>
-    <span class="dropcap-intext">(iii)</span> <em><span class="dropcap-intext-word">Colour Feeling.</span></em>
+    <section id="article-section-4">
+        <p><h3>Transferred Nationalism</h3></p>
+    <p><span class="dropcap-intext">(i)</span> <em><span class="dropcap-intext-word">Communism.</span></em>
+        <div class="textpad"></div></p>
+
+    <p><span class="dropcap-intext">(ii)</span> <em><span class="dropcap-intext-word">Political Catholicism.</span></em>
+        <div class="textpad"></div></p>
+    <p><span class="dropcap-intext">(iii)</span> <em><span class="dropcap-intext-word">Colour Feeling.</span></em>
     The old-style contemptuous attitude towards ‘natives’ has been much weakened
     in England, and various pseudo-scientific theories emphasising the superiority of the white race
     have been
@@ -488,16 +505,16 @@
     intellectual would be scandalised by the claim that the white races are superior to the coloured,
     whereas the opposite claim would seem to him unexceptionable even if he disagreed with it. Nationalistic
     attachment to the coloured races is usually mixed up with the belief that their sex lives are superior,
-    and there is a large underground mythology about the sexual prowess of Negroes.
-    <p></p>
-    <span class="dropcap-intext">(iv)</span> <em><span class="dropcap-intext-word">Class Feeling.</span></em> Among
+        and there is a large underground mythology about the sexual prowess of Negroes.</p>
+
+   <p><span class="dropcap-intext">(iv)</span> <em><span class="dropcap-intext-word">Class Feeling.</span></em> Among
     upper-class and middle-class intellectuals, only in the transposed form —
     i. e. as a belief in the superiority of the proletariat. Here again, inside the intelligentsia, the
     pressure of public opinion is overwhelming. Nationalistic loyalty towards the proletariat, and most
     vicious theoretical hatred of the bourgeoisie, can and often do co-exist with ordinary snobbishness
-    in everyday life.
-    <p></p>
-    <span class="dropcap-intext">(v)</span> <em><span class="dropcap-intext-word">Pacifism.</span></em> The majority of
+       in everyday life.</p>
+
+    <p><span class="dropcap-intext">(v)</span> <em><span class="dropcap-intext-word">Pacifism.</span></em> The majority of
     pacifists either belong to obscure religious sects or are simply
     humanitarians who object to the taking of life and prefer not to follow their thoughts beyond that
     point. But there is a minority of intellectual pacifists whose real though unadmitted motive appears
@@ -517,9 +534,12 @@
     written in praise of Carlyle, one of the intellectual fathers of Fascism. All in all it is difficult
     not to feel that pacifism, as it appears among a section of the intelligentsia, is secretly inspired
     by an admiration for power and successful cruelty. The mistake was made of pinning this emotion to
-    Hitler, but it could easily be retransfered.
-    <h3>Negative Nationalism</h3>
-    <span class="dropcap-intext">(i)</span> <em><span class="dropcap-intext-word">Anglophobia.</span></em>
+        Hitler, but it could easily be retransfered.</p>
+    </section>
+
+    <section id="article-section-5">
+        <p><h3>Negative Nationalism</h3></p>
+    <p><span class="dropcap-intext">(i)</span> <em><span class="dropcap-intext-word">Anglophobia.</span></em>
     Within the intelligentsia, a derisive and mildly hostile attitude towards Britain is more
     or less compulsory, but it is an unfaked emotion in many cases. During the war it was manifested in the
     defeatism of the intelligentsia, which persisted long after it had become clear that the Axis powers could
@@ -531,9 +551,9 @@
     would be due to Russia, or perhaps America, and not to Britain. In foreign politics many intellectuals
     follow the principle that any faction backed by Britain must be in the wrong. As a result, ‘enlightened’
     opinion is quite largely a mirror-image of Conservative policy. Anglophobia is always liable to reversal,
-    hence that fairly common spectacle, the pacifist of one war who is a bellicist in the next.
-    <p></p>
-    <span class="dropcap-intext">(ii)</span> <em><span class="dropcap-intext-word">Anti-Semitism.</span></em>
+        hence that fairly common spectacle, the pacifist of one war who is a bellicist in the next.</p>
+
+    <p><span class="dropcap-intext">(ii)</span> <em><span class="dropcap-intext-word">Anti-Semitism.</span></em>
     There is little evidence about this at present, because the Nazi persecutions have
     made it necessary for any thinking person to side with the Jews against their oppressors. Anyone educated
     enough to have heard the word ‘antisemitism’ claims as a matter of course to be free of it, and anti-Jewish
@@ -542,9 +562,9 @@
     it. People of Left opinions are not immune to it, and their attitude is sometimes affected by the fact
     that Trotskyists and Anarchists tend to be Jews. But antisemitism comes more naturally to people of
     Conservative tendency, who suspect Jews of weakening national morale and diluting the national culture.
-    Neo-Tories and political Catholics are always liable to succumb to antisemitism, at least intermittently.
-    <p></p>
-    <span class="dropcap-intext">(iii)</span> <em><span class="dropcap-intext-word">Trotskyism.</span></em>
+        Neo-Tories and political Catholics are always liable to succumb to antisemitism, at least intermittently.</p>
+
+   <p><span class="dropcap-intext">(iii)</span> <em><span class="dropcap-intext-word">Trotskyism.</span></em>
     This word is used so loosely as to include Anarchists, democratic Socialists
     and even Liberals. I use it here to mean a doctrinaire Marxist whose main motive is hostility to
     the Stalin regime. Trotskyism can be better studied in obscure pamphlets or in papers like the
@@ -561,9 +581,11 @@
     much difference. The most typical Trotskyists, in any case, are ex-Communists, and no one arrives at
     Trotskyism except via one of the left-wing movements. No Communist, unless tethered to his party by
     years of habit, is secure against a sudden lapse into Trotskyism. The opposite process does not seem
-    to happen equally often, though there is no clear reason why it should not.
-    <p></p>
-    <span class="dropcap">I</span><span class="dropcapword">n</span> the classification I have attempted above, it will
+       to happen equally often, though there is no clear reason why it should not.</p>
+     </section>
+
+    <section id="article-section-6">
+    <p><span class="dropcap">I</span><span class="dropcapword">n</span> the classification I have attempted above, it will
     seem that I have often exaggerated,
     oversimplified, made unwarranted assumptions and have left out of account the existence of ordinarily
     decent motives. This was inevitable, because in this essay I am trying to isolate and identify
@@ -575,9 +597,9 @@
     may keep it out of his mind for long periods, only reverting to it in moments of anger or sentimentality,
     or when he is certain that no important issues are involved. Thirdly, a nationalistic creed may be
     adopted in good faith from non-nationalistic motives. Fourthly, several kinds of nationalism, even
-    kinds that cancel out, can co-exist in the same person.
-    <p></p>
-    All the way through I have said, ‘the nationalist does this’ or ‘the nationalist does that’, using for
+        kinds that cancel out, can co-exist in the same person.</p>
+
+    <p>All the way through I have said, ‘the nationalist does this’ or ‘the nationalist does that’, using for
     purposes of illustration the extreme, barely sane type of nationalist who has no neutral areas in his
     mind and no interest in anything except the struggle for power. Actually such people are fairly common,
     but they are not worth the powder and shot. In real life Lord Elton, D. N. Pritt, Lady Houston, Ezra Pound,
@@ -601,23 +623,23 @@
     few people are proof against lapses of this type. The Negro snubbed by a white woman, the Englishman
     who hears England ignorantly criticised by an American, the Catholic apologist reminded of the
     Spanish Armada, will all react in much the same way. One prod to the nerve of nationalism, and the
-    intellectual decencies can vanish, the past can be altered, and the plainest facts can be denied.
-    <p></p>
-    If one harbours anywhere in one's mind a nationalistic loyalty or hatred, certain facts, although
+        intellectual decencies can vanish, the past can be altered, and the plainest facts can be denied.</p>
+
+    <p>If one harbours anywhere in one's mind a nationalistic loyalty or hatred, certain facts, although
     in a sense known to be true, are inadmissible. Here are just a few examples. I list below five
     types of nationalist, and against each I append a fact which it is impossible for that type of
-    nationalist to accept, even in his secret thoughts:
-    <p></p>
-    <div class="indent">
-        BRITISH TORY: Britain will come out of this war with reduced power and prestige.<br></div>
-    <div class="indent">COMMUNIST: If she had not been aided by Britain and America, Russia would
-        have been defeated by Germany.<br></div>
-    <div class="indent">IRISH NATIONALIST: Eire can only remain independent because of British protection.<br></div>
-    <div class="indent">TROTSKYIST: The Stalin regime is accepted by the Russian masses.<br></div>
-    <div class="indent">PACIFIST: Those who ‘abjure’ violence can only do so because others are committing
-        violence on their behalf.<br></div>
-    <p></p>
-    <span class="dropcap">A</span><span class="dropcapword">ll</span> of these facts are grossly obvious
+        nationalist to accept, even in his secret thoughts:</p>
+
+        <p id="indent">BRITISH TORY: Britain will come out of this war with reduced power and prestige.</p>
+        <p id="indent">COMMUNIST: If she had not been aided by Britain and America, Russia would
+            have been defeated by Germany.</p>
+        <p id="indent">IRISH NATIONALIST: Eire can only remain independent because of British protection.</p>
+        <p id="indent">TROTSKYIST: The Stalin regime is accepted by the Russian masses.</p>
+        <p id="indent">PACIFIST: Those who ‘abjure’ violence can only do so because others are committing
+        violence on their behalf.</p>
+    </section>
+    <section id="article-section-7">
+    <p><span class="dropcap">A</span><span class="dropcapword">ll</span> of these facts are grossly obvious
     if one's emotions do not happen to be involved: but to the kind
     of person named in each case they are also intolerable, and so they have to be denied, and false theories
     constructed upon their denial. I come back to the astonishing failure of military prediction in the
@@ -640,9 +662,9 @@
     absolutely none, that cannot be condoned when ‘our’ side commits it. Even if one does not deny that
     the crime has happened, even if one knows that it is exactly the same crime as one has condemned in
     some other case, even if one admits in an intellectual sense that it is unjustified — still one cannot
-    feel that it is wrong. Loyalty is involved, and so pity ceases to function.
-    <p></p>
-    The reason for the rise and spread of nationalism is far too big a question to be raised here. It is
+        feel that it is wrong. Loyalty is involved, and so pity ceases to function.</p>
+
+    <p>The reason for the rise and spread of nationalism is far too big a question to be raised here. It is
     enough to say that, in the forms in which it appears among English intellectuals, it is a distorted
     reflection of the frightful battles actually happening in the external world, and that its worst
     follies have been made possible by the breakdown of patriotism and religious belief. If one follows
@@ -667,8 +689,12 @@
     mental processes. The emotional urges which are inescapable, and are perhaps even necessary to
     political action, should be able to exist side by side with an acceptance of reality. But this,
     I repeat, needs a moral effort, and contemporary English literature, so far as it is alive at all
-    to the major issues of our time, shows how few of us are prepared to make it.
-</blockquote>
+        to the major issues of our time, shows how few of us are prepared to make it.</p>
+    <p><h3><a href="#article-top" class="smoothScroll">Return to top <span>&#8593;</span></a></h3></p>
+    </section>
+    </div>
+</body>
+
 <div class="footpad"></div>
 <br>
 <div class="footer">
