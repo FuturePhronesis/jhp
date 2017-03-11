@@ -1,42 +1,50 @@
 html {
-    font-family: "Source Code Pro";
+    font-family: "Trebuchet MS", Helvetica;
     font-size: 18px;
-}
-html {
-    font-family: sans-serif;
 }
 
 .article-body {
     line-height: 1.66667;
-}
-
-#article .article-body {
     margin: 30px 0;
 }
 
-#article .article-body > section {
-@include fluid-container;
-    max-width: $article-width;
-    padding-right: $container-width - $article-width;
-@media(max-width: $container-width + $breakpoint-padding) {
-    padding-right: inherit;
-}
+@media (max-width: 1010px) {
+    .article-body > section {
+        padding-right: inherit;
+    }
 }
 
-#article .article-body > .full-width {
-@include fluid-container;
-    max-width: $container-width;
-    margin-left: calc(50% - 480px);
-@media(max-width: $container-width + $breakpoint-padding) {
-    max-width: $article-width !important;  // Inline style is the image width
-                                              margin-left: auto;
-}
+.article-body > section {
+    width: 94%;
+    margin: 0 auto;
+    max-width: 750px;
 }
 
-p[Attributes Style] {
-    direction: ltr;
-    unicode-bidi: isolate;
+h1 {
+    text-align: center;
+    font-weight: bold;
 }
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#header-content {
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 p {
     display: block;
@@ -46,3 +54,94 @@ p {
     -webkit-margin-end: 0px;
 }
 
+/* --- DROPCAP ---*/
+.dropcap {
+    float: left;
+    /* width: 0.7em; */
+    font-size: 300%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcapword {
+    width: 0.7em;
+    font-size: 150%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcap-intext {
+    float: left;
+    /* width: 0.7em; */
+    font-size: 175%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcap-intext-word {
+    width: 0.7em;
+    font-size: 125%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+/* --- FOOTER --- */
+.footpad {
+    padding: 15px;
+}
+
+.footer {
+    position: absolute;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-box {
+    padding: 5px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.insta,
+.youtube,
+.email,
+.twitter {
+    float: right;
+}
+
+.footer-content-insta,
+.footer-content-youtube,
+.footer-content-email,
+.footer-content-twitter {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#footer-insta,
+#footer-youtube,
+#footer-email,
+#footer-twitter {
+    position: relative;
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    padding: 2px;
+}
+
+.insta:hover,
+.youtube:hover,
+.email:hover,
+.twitter:hover {
+    opacity: 0.5;
+    color: #979696;
+}

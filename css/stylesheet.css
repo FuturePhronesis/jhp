@@ -1,15 +1,11 @@
+html {
+    font-family: "Trebuchet MS", Helvetica;
+    font-size: 18px;
+}
+
 body {
     margin: 0;
-}
-
-li a:hover {
-    /* background-color: #e0e0e0; */
-    opacity: 0.5;
-    color: #979696;
-}
-
-.active {
-    background-color: #cce5ff;
+    line-height: 1.66667;
 }
 
 /* Page Styling */
@@ -32,7 +28,6 @@ blockquote {
     padding: 0 80px;
     display: block;
     font-size: 18px;
-    font-family: "Source Sans Pro";
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -41,25 +36,21 @@ blockquote {
 
 h1 {
     text-align: center;
-    font-family: "Source Sans Pro";
     margin: 10px;
 }
 
 h2 {
     text-align: center;
-    font-family: "Source Sans Pro";
     margin: 8px;
 }
 
 h3 {
     text-align: center;
-    font-family: "Source Sans Pro";
     margin: 6px;
 }
 
 h4 {
     text-align: center;
-    font-family: "Source Code Pro";
     margin: 5px;
 }
 
@@ -67,7 +58,6 @@ h4 {
     float: left;
     /* width: 0.7em; */
     font-size: 300%;
-    font-family: "Source Code Pro";
     line-height: 80%;
     font-weight: bold;
 }
@@ -75,7 +65,6 @@ h4 {
 .dropcapword {
     width: 0.7em;
     font-size: 150%;
-    font-family: "Source Code Pro";
     line-height: 80%;
     font-weight: bold;
 }
@@ -84,7 +73,6 @@ h4 {
     float: left;
     /* width: 0.7em; */
     font-size: 175%;
-    font-family: "Source Code Pro";
     line-height: 80%;
     font-weight: bold;
 }
@@ -92,7 +80,6 @@ h4 {
 .dropcap-intext-word {
     width: 0.7em;
     font-size: 125%;
-    font-family: "Source Code Pro";
     line-height: 80%;
     font-weight: bold;
 }
@@ -117,7 +104,6 @@ h4 {
 
 h1.poem {
     text-indent: 50px;
-    font-family: "Source Sans Pro";
     margin: 10px;
     text-align: left;
     padding: 0 80px;
@@ -127,7 +113,6 @@ h1.poem {
 
 h2.poem {
     text-indent: 50px;
-    font-family: "Source Sans Pro";
     margin: 8px;
     text-align: left;
     padding: 0 80px;
@@ -137,7 +122,6 @@ h2.poem {
 
 h3.poem {
     text-indent: 50px;
-    font-family: "Source Sans Pro";
     margin: 6px;
     text-align: left;
     padding: 0 80px;
@@ -178,7 +162,6 @@ h3.poem {
     background: #dbdbdb;
     padding: 1.5px;
     border-radius: 4px;
-    font-family: "Source Sans Pro";
 }
 
 .accordion-section-title-red {
@@ -248,7 +231,6 @@ a.accordion-section-title-yellow.active::after {
     /*type*/
     font-size: 12pt;
     color: black;
-    font-family: "Source Sans Pro";
 }
 
 .accordion-section-content-red {
@@ -281,7 +263,6 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    font-family: "Source Sans Pro";
     display: block;
 
 }
@@ -294,14 +275,12 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: "Source Sans Pro";
 
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #45a049;
-    font-family: "Source Sans Pro";
 }
 
 /* Add a background color and some padding around the form */
@@ -309,7 +288,6 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
-    font-family: "Source Sans Pro";
     width: 45%;
 }
 
