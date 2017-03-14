@@ -14,9 +14,12 @@
     margin: auto;
     max-width: 100%;
     height: auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;;
 }
 
-blockquote {
+/*blockquote {
     padding: 80px;
     display: block;
     font-size: 18px;
@@ -39,7 +42,7 @@ h3 {
     text-align: center;
     font-family: "Source Sans Pro";
     margin: 6px;
-}
+}*/
 
 .dropcap {
     float: left;
@@ -84,31 +87,52 @@ h3 {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
-    font-family: "Source Sans Pro";
     width: 45%;
 }
 
 /* ---ESSAY TABLE STYLING----*/
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    text-align: center;
+
+#left-box {
+    width: 235px;
+    float: left;
+    padding: 5px 15px;
+    display: inline-block;
 }
 
-.flex-container > * {
+#middle-box {
+    width: 235px; /* Account for margins + border values */
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+
+    display: inline-block;
+}
+
+#right-box {
+    width: 235px;
+    padding: 5px 15px;
+    display: inline-block;
+    float: right;
+}
+
+.lp-box {
     padding: 5px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
 }
 
 .article-box {
-    border: 2px black;
+    border: .5px #999;
     border-style: solid;
     border-radius: 4px;
-    width: 320px;
-    margin: 1em;
+    /*max-width: 355px;*/
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
     text-align: center;
 }
 
@@ -132,19 +156,19 @@ h3 {
 a:link {
     color: #000000;
     text-decoration: none;
-    font-family: "Source Code Pro";
+    ffont-family: "Trebuchet MS", Helvetica;
 }
 
 a:visited {
     color: #000000;
     text-decoration: none;
-    font-family: "Source Code Pro";
+    font-family: "Trebuchet MS", Helvetica;
 }
 
 a:hover {
     color: #979696;
     text-decoration: none;
-    font-family: "Source Code Pro";
+    font-family: "Trebuchet MS", Helvetica;
 }
 
 img:hover {

@@ -3,11 +3,17 @@ html {
     font-size: 18px;
 }
 
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
 a {
     text-decoration: none;
     font-family: "Trebuchet MS", Helvetica;
     color: #000000;
 }
+
 .article-pad {
     width: 94%;
     margin: 0 auto;
@@ -17,7 +23,6 @@ a {
 }
 
 .article-body {
-    line-height: 1.66667;
     margin: 30px 0;
 }
 
@@ -84,18 +89,18 @@ figcaption {
     width: 94%;
     margin: 0 auto;
     max-width: 750px;
-    border-bottom: 1px solid #c4c4c4;
     padding-bottom: 32px;
+    t
 }
 
 .article-body > section {
-    width: 94%;
+    width: 100%;
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 825px;
 }
 
 h1, h2, h3, h4 {
-    text-align: left;
+    text-align: center;
 }
 
 h1 {
@@ -177,7 +182,9 @@ p {
     box-sizing: border-box;
     width: 100%;
     background-color: #f3f3f3;
-    /*margin-left: auto;
+    clear: both;
+    /*padding: 0 15px;
+    margin-left: auto;
     margin-right: auto;
    position:fixed;
     left:0px;
