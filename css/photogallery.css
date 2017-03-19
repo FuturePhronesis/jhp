@@ -29,6 +29,11 @@ img {
     width: 25%;
 }
 
+.column-shadow {
+    float: left;
+    width: 25%;
+}
+
 @media only screen and (max-width : 480px) {
     /* Smartphone view: 1 tile */
     .column {
