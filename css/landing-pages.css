@@ -157,19 +157,22 @@ p {
     border-radius: 4px;
     background: #f3f3f3;
     padding: 5px 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: relative
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    width: auto;
+    display: inline-block;
 }
 
 .home-box-content {
     position: relative;
     min-height: 1px;
     padding-right: 10px;
-    padding-left: 10px
 }
 
 .home-box-text {
+    display: block;
+    width: 180px;
     padding: 5px;
     display: inline-block;
     clear: none;
@@ -193,11 +196,12 @@ p {
     width: 235px; /* Account for margins + border values */
     padding-bottom: 0;
     padding-top: 0;
-    padding-right: 15px;
+    padding-right: 5px;
     padding-left: 15px;
     margin: 0px 5px 5px 5px;
     display: inline-block;
     clear: left;
+
 }
 
 #right-box {
@@ -211,7 +215,7 @@ p {
     display: inline-block;
     margin: auto;
     vertical-align: middle;
-    max-width: 45%;
+    max-width: 55%;
     height: auto;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -253,6 +257,14 @@ p {
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+    .home-box.responsive {
+        position: relative;
+    }
+    .home-box-content {
+        position: relative;
+    }
+}
 /* --- FOOTER --- */
 .footpad {
     padding: 15px;
