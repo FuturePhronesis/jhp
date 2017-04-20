@@ -131,6 +131,14 @@ h1 {
     margin-left: 2.5em;
 }
 
+#center {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 7.5em;
+    margin-left: 7.5em;
+}
+
 p {
     display: block;
     -webkit-margin-before: 1em;
