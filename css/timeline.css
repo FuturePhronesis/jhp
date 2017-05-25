@@ -120,14 +120,14 @@ time {
 /* TIMELINE DATE
 __________________________*/
 
-.timedate ul li {
+/*.timedate {
     list-style-type: none;
     position: relative;
     width: 6px;
     margin: 0 auto;
   }
 
-.timedate ul li::after {
+.timedate::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -138,6 +138,51 @@ __________________________*/
     border-radius: 50%;
     background: inherit;
 }
+
+.timedate div {
+    position: static;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 84px;
+    padding: 15px;
+    background: #F45B69;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    border-radius:50%;
+    margin-top: 10px;
+}
+
+.timedate.date {
+    position: static;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 84px;
+    padding: 15px;
+    background: #F45B69;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    border-radius: 50%;
+}*/
+
+.timedate ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    background: white;
+}
+
+/*.timedate ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}*/
 
 .timedate ul li div {
     position: relative;
@@ -158,7 +203,6 @@ __________________________*/
     -moz-border-radius:;
     border-radius: 50%;
 }
-
 /*.timedate ul li div::before {
     content: '';
     position: absolute;
