@@ -31,7 +31,16 @@ h1 {
     font-size: 2.5rem;
 }
 
+/* SIDEBAR
+_________________________________________*/
 
+.sidebar {
+    position:fixed;
+    right:25%;
+    top: 46%;
+}
+
+ */
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -69,17 +78,13 @@ h1 {
     background: #F45B69;
 }
 
-/*.timeline ul li div.date {
-    position: static;
-    transform: translateX(-50%);
+.timeline ul li #dresden {
+    position: relative;
     bottom: 0;
-    width: 77px;
+    width: 900px;
     padding: 15px;
     background: #F45B69;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    border-radius: 50%;
-}*/
+}
 
 .timeline ul li div::before {
     content: '';
@@ -91,13 +96,13 @@ h1 {
 }
 
 .timeline ul li:nth-child(odd) div {
-    left: 45px;
+    left: -439px;
 }
 
 .timeline ul li:nth-child(odd) div::before {
-    left: -15px;
-    border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #F45B69;
 }
 
 .timeline ul li:nth-child(even) div {
