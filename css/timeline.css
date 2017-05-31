@@ -12,7 +12,43 @@ body {
     color: #fff;
     overflow-x: hidden;
     padding-bottom: 50px;
-}  /* INTRO SECTION
+}
+
+.quote-indent {
+    text-indent: .75rem;
+}
+
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.05em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.05em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+
+
+/* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
@@ -34,13 +70,13 @@ h1 {
 /* SIDEBAR
 _________________________________________*/
 
-.sidebar {
-    position:fixed;
-    right:25%;
+.sidebar-bomb {
+    position: fixed;
+    right: 25%;
     top: 46%;
 }
+/
 
- */
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -208,6 +244,7 @@ __________________________*/
     -moz-border-radius:;
     border-radius: 50%;
 }
+
 /*.timedate ul li div::before {
     content: '';
     position: absolute;
@@ -268,6 +305,7 @@ __________________________*/
     .timeline ul li div {
         width: 250px;
     }
+
     .timeline ul li:nth-child(even) div {
         left: -289px;
         /*250+45-6*/
@@ -278,12 +316,15 @@ __________________________*/
     .timeline ul li {
         margin-left: 20px;
     }
+
     .timeline ul li div {
         width: calc(100vw - 91px);
     }
+
     .timeline ul li:nth-child(even) div {
         left: 45px;
     }
+
     .timeline ul li:nth-child(even) div::before {
         left: -15px;
         border-width: 8px 16px 8px 0;

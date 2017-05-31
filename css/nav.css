@@ -13,7 +13,7 @@
     font-family: "Trebuchet MS", Helvetica;
     transition: 0.3s;
     font-size: 18px;
-    }
+}
 
 .topnav a:hover {
     opacity: 0.5;
@@ -58,6 +58,7 @@
         display: block;
         text-align: left;
     }
+
     .topnav.responsive #jhp {
         max-width: 50%;
         height: auto;

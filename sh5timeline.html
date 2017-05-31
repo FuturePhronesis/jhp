@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -32,6 +32,7 @@
     <script type="text/javascript" src="javascript/nav.js"></script>
     <script type="text/javascript" src="javascript/smoothscroll.js"></script>
     <script type="text/javascript" src="javascript/timeline.js"></script>
+    <script type="text/javascript" src="javascript/bombfall.js"></script>
     <title>Slaughterhouse Five Timeline</title>
 </head>
 <div class="topnav" id="myTopnav">
@@ -47,7 +48,7 @@
         <h1>Vertical Timeline</h1>
     </div>
 </section>
-<div class="sidebar">
+<div class="sidebar-bomb">
     <img src="images/sigbomb.png">
 </div>
 <section class="timedate">
@@ -64,8 +65,11 @@
     <ul>
         <li>
             <div>
-                <p><time>Billy Waits for Life</time> "And then Billy swung into life again, going backwards until he was in
-                    pre-birth, which was red light and bubbling sounds."</p>
+                    <time>Billy Waits for Life</time>
+                    <blockquote>
+                    And then Billy swung into life again, going backwards until he was in
+                    pre-birth, which was red light and bubbling sounds.
+                    </blockquote>
             </div>
         </li>
     </ul>
@@ -83,8 +87,11 @@
     <ul>
         <li>
             <div>
-                 <time>Billy's Zerost Birthday</time> "Billy was born in 1922 in Illium, New York, the only child of a barber there.
-                He was a funny-looking child..."
+                <time>Billy's Zerost Birthday</time>
+                <blockquote>
+                    Billy was born in 1922 in Illium, New York, the only child of a barber there.
+                He was a funny-looking child...
+                </blockquote>
             </div>
         </li>
     </ul>
@@ -103,39 +110,60 @@
     <ul>
         <li>
             <div>
-                <p><time>Bath Time</time>"And Billy zoomed back in time to his infancy. He was a baby who had just been bathed by his
-                mother. Now his mother wrapped him in a towel, carried him into a rosy room that was filled with
-                sunshine. She unwrapped him, laid him on the tickling towel, powdered him between his legs, joked
-                with him, patted his little jelly belly. Her palm on his little jelly belly made potching sounds.
-                <br>Billy gurgled and cooed."</p>
-            </div>
-        </li>
-                <li>
-            <div>
-                <p><time>Swimming Lesson</time>"And then he swung into life again and stopped. He was a little boy taking a shower
-                with his hairy father at the Ilium Y.M.C.A...
-                <br>Little Billy was terrified, because his father had said Billy was going to learn to swing by the
-                method of sink-or-swim."</p>
+                    <time>Bath Time</time>
+                <blockquote>
+                    And Billy zoomed back in time to his infancy. He was a baby who had just been bathed by his
+                    mother. Now his mother wrapped him in a towel, carried him into a rosy room that was filled with
+                    sunshine. She unwrapped him, laid him on the tickling towel, powdered him between his legs, joked
+                    with him, patted his little jelly belly. Her palm on his little jelly belly made potching sounds.
+                    <br>Billy gurgled and cooed.
+            </blockquote>
             </div>
         </li>
         <li>
             <div>
-                <p><time>1934</time> "Billy was flung back into his childhood. He was twelve years old, quaking as he stood
-                    with his mother and father on Bright Angel Point, at the rim of the Grand Canyon. The little human family
-                    was staring at the floor of the canyon, one mile straight down.
-                    <br> 'Well—' said Billy's father, manfully kicking a pebble into space, 'there it <em>is</em>.' They
-                    had come to this famous place by automobile. They had had seven blowouts on the way.
-                    <br>'It was worth the trip,' said Billy's mother raptly. 'Oh, God—was it ever <em>worth</em> it.'
-                    <br>Billy hated the canyon. He was sure that he was going to fall in. His mother touched him, and he wet
-                    his pants."</p>
+                    <time>Swimming Lesson</time>
+                    <blockquote>
+                        And then he swung into life again and stopped. He was a little boy taking a shower
+                    with his hairy father at the Ilium Y.M.C.A...
+                    <br>Little Billy was terrified, because his father had said Billy was going to learn to swing by the
+                    method of sink-or-swim.
+                    </blockquote>
             </div>
         </li>
     </ul>
-    </section>
+</section>
+<section class="timedate">
+    <ul>
+        <li>
+            <div class="date">
+                    <time>1934</time>
+            </div>
+        </li>
+    </ul>
+</section>
+<section class="timeline">
+    <ul>
+        <li>
+            <div>
+                <blockquote>
+                    Billy was flung back into his childhood. He was twelve years old, quaking as he stood
+                    with his mother and father on Bright Angel Point, at the rim of the Grand Canyon. The little human
+                        family was staring at the floor of the canyon, one mile straight down.
+                    <br><br>'Well—' said Billy's father, manfully kicking a pebble into space, 'there it <em>is</em>.' They
+                        had come to this famous place by automobile. They had had seven blowouts on the way.
+                    <br><br>'It was worth the trip,' said Billy's mother raptly. 'Oh, God—was it ever <em>worth</em> it.'
+                    <br><br>Billy hated the canyon. He was sure that he was going to fall in. His mother touched him, and he
+                        wet his pants.
+                </blockquote>
+            </div>
+        </li>
+    </ul>
+</section>
 
 <section class="timedate">
     <ul>
-<li>
+        <li>
             <div class="date">
                 <time>1944</time>
             </div>
@@ -147,91 +175,112 @@
     <ul>
         <li>
             <div>
-                <time>Billy Joins the War</time><p>"When Billy joined the regiment, it was in the process of being destroyed by the Germans
-                in the famous Battle of the Bulge. Billy never even got to meet the chaplain he was supposed to assit,
-                was never even issued a steel helmet and combat boots. This was in December of 1944, during the last
-                mighty German attack of the war."</p>
+                <time>Billy Joins the War</time>
+                "When Billy joined the regiment, it was in the process of being destroyed by the Germans
+                    in the famous Battle of the Bulge. Billy never even got to meet the chaplain he was supposed to
+                    assist, was never even issued a steel helmet and combat boots. This was in December of
+                    1944, during the last mighty German attack of the war."
             </div>
         </li>
         <li>
             <div>
-                <p><time>Billy becomes unstuck</time>"Billy Pilgrim had stopped in the forest. He was leaning against a tree with his eyes closed.
-                His head was tilted back and his nostrils were flaring. He was like a poet in the Parthenon.
-                <br>This was when Billy first came unstuck in time."</p>
+                    <time>Billy becomes unstuck</time>
+                    "Billy Pilgrim had stopped in the forest. He was leaning against a tree with his eyes closed.
+                    His head was tilted back and his nostrils were flaring. He was like a poet in the Parthenon.
+                <br>This was when Billy first came unstuck in time."
             </div>
         </li>
     </ul>
 </section>
 
-        <section class="timedate">
-            <ul>
-                <li>
-                    <div class="date">
-                        <time>1945</time>
-                    </div>
-                </li>
-                <ul>
-        </section>
-<section class="timeline">
+<section class="timedate">
+    <ul>
+        <li>
+            <div class="date">
+                <time>1945</time>
+            </div>
+        </li>
         <ul>
-            <li>
+</section>
+<section class="timeline">
+    <ul>
+        <li>
             <div id="dresden">
-                <time>The Bombing of Dresden</time> "Feb. 13th is bombed. He woke up with his head under a blanket
+                <time>The Bombing of Dresden</time>
+                "Feb. 13th is bombed. He woke up with his head under a blanket
                 in a ward for nonviolent mental patients in a veterans' hospital near Lake Placid, New York.
                 It was springtime in 1948, three years after the end of the war."
             </div>
         </li>
         <li>
             <div>
-                <time>Billy Leaves the Army</time> "After his honorable discharge from the Army in 1945, Billy again enrolled in the
+                <time>Billy Leaves the Army</time>
+                "After his honorable discharge from the Army in 1945, Billy again enrolled in the
                 Ilium School of Optomertry."
             </div>
         </li>
         <li>
             <div>
-                <time>1948</time><p>"He woke up with his head under a blanket in a ward for nonviolent mental
-                patients in a veterans' hospital near Lake Placid, New York. It was springtime in 1948,
-                three years after the end of the war."</p>
+                <time>1948</time>
+                <p>"He woke up with his head under a blanket in a ward for nonviolent mental
+                    patients in a veterans' hospital near Lake Placid, New York. It was springtime in 1948,
+                    three years after the end of the war."</p>
             </div>
         </li>
         <li>
             <div>
-                <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                <time>1946</time>
+                In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis.
+                Vestibulum id magna est.
             </div>
         </li>
         <li>
             <div>
-                <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                <time>1956</time>
+                In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis.
+                Vestibulum id magna est.
             </div>
         </li>
         <li>
             <div>
-                <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                <time>1957</time>
+                In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis.
+                Vestibulum id magna est.
             </div>
         </li>
         <li>
             <div>
-                <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+                <time>1967</time>
+                Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis
+                ante.
             </div>
         </li>
         <li>
             <div>
-                <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+                <time>1977</time>
+                Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor
+                convallis enim, non dignissim ligula ipsum a turpis.
             </div>
         </li>
         <li>
             <div>
-                <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                <time>1985</time>
+                In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis.
+                Vestibulum id magna est.
             </div>
         </li>
         <li>
             <div>
-                <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                <time>2000</time>
+                In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis.
+                Vestibulum id magna est.
             </div>
         </li>
         <li>
             <div>
-                <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                <time>2005</time>
+                In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis.
+                Vestibulum id magna est.
             </div>
         </li>
     </ul>
