@@ -18,18 +18,18 @@
         ga('send', 'pageview');
 
     </script>
-    <meta charset="UTF-8">
-    <meta name="description" content="Get in touch.">
-    <meta name="keywords" content="contact, get in touch, email">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="css/landing-pages.css"/>
     <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/essay.css"/>
     <script type="text/javascript" src="javascript/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="javascript/nav.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Articles of mine that span the world.">
+    <meta name="keywords" content="essays, articles, poems, poertry, literature, news, politics, pop culture">
+    <meta charset="UTF-8">
+    <title>My Articles</title>
 </head>
-<title>Contact</title>
-<body>
+
 <div class="topnav" id="myTopnav">
     <a href="index.html"><img id="jhp" src="images/justperf-nav.png"></a>
     <a href="annotations.html">Annotations</a>
@@ -37,28 +37,48 @@
     <a href="photography.html">Photography</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
-
-<h1>Get In Touch!</h1>
-<h3>Got questions or just want to yell at me about something? Fill out the form below and I'll be in touch
-    as soon as I can.</h3>
-<div class="container">
-    <form method="post" form action="/action_page.php">
-
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="First and Last name">
-
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="name@gmail.com">
-
-        <label for="subject">Message</label>
-        <textarea id="subject" name="subject" placeholder="What's up?" style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-
-        </formform>
+<body>
+<div class="textpad"></div>
+<div class="article-head">
+    <h1>An Array of Articles</h1>
+    <h2>And other such goings ons</h2>
+    <h4>A handful of pieces of mine covering literature, current events, pop culture - the usual.</h4>
 </div>
-<div class="footpad"></div>
-<br>
+
+
+<div class="textpad"></div>
+
+<div class="article-body">
+    <section id="article-section-1">
+        <section id="left-box">
+            <div class="article-box">
+                <div class="image-box">
+                    <a href="articles/giovanni.html">
+                        <img class="essay-img" src="images/motionlaws.png"></div>
+                <div class="textpad"></div>
+                Notes on Nikki Giovanni's<br>
+                poem "The Laws of Motion"
+                </a>
+            </div>
+        </section>
+    </section>
+    <section id="article-section-2">
+        <section id="middle-box">
+            <div class="article-box">
+                <div class="image-box">
+                    <a href="articles/camus.html">
+                        <img class="essay-img" src="images/camusfront.png"></div>
+                <div class="textpad"></div>
+                Albert Camus:<br>
+                A novel sort of rebel
+                </a>
+            </div>
+        </section>
+    </section>
+</div>
+</body>
+
+<div class="footpad"></div><br>
 <div class="footer">
     <div class="icon-box">
         <div class="email">
@@ -85,5 +105,4 @@
         </div>
     </div>
 </div>
-</body>
 </html>
