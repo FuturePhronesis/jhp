@@ -143,6 +143,15 @@ p {
     -webkit-margin-end: 0px;
 }
 
+p.lp {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: center;
+}
+
 /* --- GRID ROW AND COLUMNS --- */
 *, :after, :before {
     box-sizing: inherit
@@ -1399,10 +1408,10 @@ p {
 }
 
 .home-img {
-    display: inline-block;
+    display: block;
     margin: auto;
     vertical-align: middle;
-    max-width: 65%;
+    max-width: 90%;
     height: auto;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;

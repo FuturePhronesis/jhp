@@ -10,11 +10,11 @@
 .essay-img {
     display: block;
     margin: auto;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    border-radius: 4px;;
+    border-radius: 4px;
 }
 
 .dropcap {
