@@ -160,25 +160,25 @@ p.lp {
     opacity: 1;
 }
 
-#logo-holder {
+#icon-holder {
     position:relative;
 }
-#logo-holder .rose-icon {
+#icon-holder .rose-icon {
     transition: opacity 0.3s ease-in-out;
 }
-#logo-holder .rose-text {
+#icon-holder .rose-text {
     transition: opacity 0.3s ease-in-out;
 }
-#logo-holder .rose-text {
+#icon-holder .rose-text {
     position:absolute;
     width: 94%;
     margin: -115 auto;
     opacity:0;
 }
-#logo-holder:hover .rose-icon {
+#icon-holder:hover .rose-icon {
     opacity:0;
 }
-#logo-holder:hover .rose-text {
+#icon-holder:hover .rose-text {
     opacity:1;
 }
 
@@ -216,7 +216,7 @@ p.lp {
     opacity: 1;
 }
 
-.home-box-green,
+/*.home-box-green,
 .home-box-sig {
     background: #5fae52;
     min-height: 115px;
@@ -224,7 +224,7 @@ p.lp {
     margin: 0 0 1rem;
     border-radius: 4px;
     text-align: center;
-}
+}*/
 
 .home-box-red {
     background: #db253b;
