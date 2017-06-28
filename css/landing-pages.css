@@ -116,6 +116,13 @@ h1 {
     margin-top: 0;
 }
 
+h1#left,
+h2#left,
+h3#left,
+h4#left {
+    text-align: left;
+}
+
 #subhead {
     font-size: 1.11111rem;
     line-height: 1.2;
@@ -254,8 +261,7 @@ p.lp {
     background: #FB7BC5;
 }
 .home-box-sig {
-    background: transparent;
-    border: 3px solid black;
+    background: #dcd1cf;
 }
 
 /*.home-box-red #rose-icon,
