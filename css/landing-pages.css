@@ -16,10 +16,10 @@ a {
     color: #000000;
 }
 
-a:hover {
+/*a:hover {
     opacity: 0.5;
     color: #979696;
-}
+}*/
 
 .article-pad {
     width: 94%;
@@ -223,16 +223,6 @@ p.lp {
     opacity: 1;
 }
 
-/*.home-box-green,
-.home-box-sig {
-    background: #5fae52;
-    min-height: 115px;
-    padding: 1rem;
-    margin: 0 0 1rem;
-    border-radius: 4px;
-    text-align: center;
-}*/
-
 .home-box-red {
     background: #db253b;
 }
@@ -251,44 +241,12 @@ p.lp {
 .home-box-orange {
     background: #feb356;
 }
-/*.home-box-pink {
-    background: rgba(251,123,197,0.3);
-}
-.home-box-pink:hover {
-    background: rgb(251,123,197);
-}*/
 .home-box-pink {
     background: #FB7BC5;
 }
 .home-box-sig {
     background: #dcd1cf;
 }
-
-/*.home-box-red #rose-icon,
-.home-box-yellow #rose-icon,
-.home-box-blue #rose-icon,
-.home-box-green #rose-icon,
-.home-box-purple #rose-icon,
-.home-box-orange #rose-icon,
-.home-box-pink #rose-icon,
-.home-box-sig #rose-icon {
-    display: block;
-    margin: auto;
-    vertical-align: middle;
-    max-width: 25%;
-    height: auto;
-    transition: opacity 0.5s ease-in-out;
-}
-.home-box-red #rose-icon:hover,
-.home-box-yellow #rose-icon:hover,
-.home-box-blue #rose-icon:hover,
-.home-box-green #rose-icon:hover,
-.home-box-purple #rose-icon:hover,
-.home-box-orange #rose-icon:hover,
-.home-box-pink #rose-icon:hover,
-.home-box-sig #rose-icon:hover {
-    opacity: 0;
-}*/
 
 .rose-icon {
     display: block;
@@ -330,6 +288,62 @@ p.lp {
 
 .home-box-pad {
     padding: 5px;
+}
+
+/* ---BUTTONS--- */
+.button-sig,
+.button-blue,
+.button-green,
+.button-yellow,
+.button-red,
+.button-purple,
+.button-orange,
+.button-pink {
+    display: block;
+    vertical-align: middle;
+    margin: 1rem auto 0;
+    width: 45%;
+    padding: 1em .5em;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    /*transition: background-color .25s ease-out, color .25s ease-out;*/
+    font-size: .9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-sig {
+    background-color: #bca7a3;
+    color: #000000;
+}
+.button-blue {
+    background-color: #355183;
+    color: #000000;
+}
+.button-green {
+    background-color: #427a39;
+    color: #000000;
+}
+.button-yellow {
+    background-color: #f7eb01;
+    color: #000000;
+}
+.button-red {
+    background-color: #9a1925;
+    color: #000000;
+}
+.button-purple {
+    background-color: #683e8b;
+    color: #000000;
+}
+.button-orange {
+    background-color: #ec9211;
+    color: #000000;
+}
+.button-pink {
+    background-color: #fa55b4;
+    color: #000000;
 }
 
 /* --- DROPCAP ---*/

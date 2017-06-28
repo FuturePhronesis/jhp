@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
-/*html {
+html {
     font-family: sans-serif;
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
@@ -225,7 +225,7 @@ html {
     box-sizing: inherit
 }
 
-/*body {
+body {
     margin: 0;
     padding: 0;
     background: #fefefe;
@@ -1914,7 +1914,7 @@ p + .stat {
     }
 }
 
-/*[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], textarea {
     display: block;
     box-sizing: border-box;
     width: 100%;
