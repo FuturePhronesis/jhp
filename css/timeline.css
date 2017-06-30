@@ -21,7 +21,7 @@ body {
 blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 blockquote:before {
@@ -45,8 +45,6 @@ blockquote:after {
 blockquote p {
     display: inline;
 }
-
-
 
 /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -75,6 +73,7 @@ _________________________________________*/
     right: 25%;
     top: 46%;
 }
+
 /
 
 /* TIMELINE

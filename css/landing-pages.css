@@ -158,35 +158,42 @@ p.lp {
     -webkit-margin-end: 0px;
     text-align: center;
 }
+
 .rose-text {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     display: block;
 }
+
 .rose-text:hover {
     opacity: 1;
 }
 
 #icon-holder {
-    position:relative;
+    position: relative;
 }
+
 #icon-holder .rose-icon {
     transition: opacity 0.3s ease-in-out;
 }
+
 #icon-holder .rose-text {
     transition: opacity 0.3s ease-in-out;
 }
+
 #icon-holder .rose-text {
-    position:absolute;
+    position: absolute;
     width: 94%;
     margin: -115 auto;
-    opacity:0;
+    opacity: 0;
 }
+
 #icon-holder:hover .rose-icon {
-    opacity:0;
+    opacity: 0;
 }
+
 #icon-holder:hover .rose-text {
-    opacity:1;
+    opacity: 1;
 }
 
 /* --- CONTENT BOXES RE: NAV --- */
@@ -212,6 +219,7 @@ p.lp {
     border-radius: 4px;
     transition: opacity 0.3s ease-in-out;
 }
+
 .home-box-red:hover,
 .home-box-yellow:hover,
 .home-box-blue:hover,
@@ -226,24 +234,31 @@ p.lp {
 .home-box-red {
     background: #db253b;
 }
+
 .home-box-yellow {
     background: #fcf547;
 }
+
 .home-box-blue {
     background: #4e73b7;
 }
+
 .home-box-green {
     background: #5fae52;
 }
+
 .home-box-purple {
     background: #8f5eb7;
 }
+
 .home-box-orange {
     background: #feb356;
 }
+
 .home-box-pink {
     background: #FB7BC5;
 }
+
 .home-box-sig {
     background: #dcd1cf;
 }
@@ -256,6 +271,7 @@ p.lp {
     height: auto;
     transition: opacity 0.5s ease-in-out;
 }
+
 .rose-icon:hover {
     opacity: 0;
 }
@@ -317,30 +333,37 @@ p.lp {
     background-color: #bca7a3;
     color: #000000;
 }
+
 .button-blue {
     background-color: #355183;
     color: #000000;
 }
+
 .button-green {
     background-color: #427a39;
     color: #000000;
 }
+
 .button-yellow {
     background-color: #f7eb01;
     color: #000000;
 }
+
 .button-red {
     background-color: #9a1925;
     color: #000000;
 }
+
 .button-purple {
     background-color: #683e8b;
     color: #000000;
 }
+
 .button-orange {
     background-color: #ec9211;
     color: #000000;
 }
+
 .button-pink {
     background-color: #fa55b4;
     color: #000000;
