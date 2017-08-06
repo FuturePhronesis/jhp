@@ -132,7 +132,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     function close_accordion_section() {
         $('.accordion-yellow .accordion-section-title-yellow').removeClass('active');
-        $('.accordion-yellow .accordion-section-content-yellow').slideUp(300).removeClass('open');
+        $('.accordion-yellow .accordion-section-content-yellow').removeClass('open').slideUp(300);
     }
 
     $('.accordion-section-title-yellow').click(function (e) {

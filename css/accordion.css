@@ -51,7 +51,7 @@
 .accordion-section-blue:last-child .accordion-section-title-blue,
 .accordion-section-green:last-child .accordion-section-title-green,
 .accordion-section-purple:last-child .accordion-section-title-purple,
-.accordion-section-yellow:last-child .accordion-section-title-yellow,
+.accordion-section-yellow:last-child .accordion-section-title-yellow
 {
     border-bottom: none;
 }
@@ -114,4 +114,8 @@ a.accordion-section-title-yellow.active::after {
 
 .accordion-section-content-yellow {
     background: #FFF8DE;
+}
+.accordion-section-content-yellow.open {
+    display: block !important;
+    border: 1px solid magenta;
 }

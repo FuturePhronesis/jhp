@@ -105,7 +105,7 @@ figcaption {
 
 .article-body > section {
     width: 94%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     max-width: 825px;
 }
 
