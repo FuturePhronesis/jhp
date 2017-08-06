@@ -160,7 +160,7 @@ p.lp {
 }
 
 .rose-text {
-    opacity: 0;
+    /*opacity: 0;*/
     transition: opacity 0.5s ease-in-out;
     display: block;
 }
@@ -169,31 +169,34 @@ p.lp {
     opacity: 1;
 }
 
-#icon-holder {
+.home-box {
     position: relative;
 }
 
-#icon-holder .rose-icon {
-    transition: opacity 0.3s ease-in-out;
+.home-box .rose-icon {
+    /*transition: opacity 0.3s ease-in-out;*/
+    z-index: 3;
 }
 
-#icon-holder .rose-text {
-    transition: opacity 0.3s ease-in-out;
+.home-box .rose-text {
+    /*transition: opacity 0.3s ease-in-out;*/
+    z-index: 2;
 }
 
-#icon-holder .rose-text {
+.home-box .rose-text {
     position: absolute;
     width: 94%;
     margin: -115 auto;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
-#icon-holder:hover .rose-icon {
-    opacity: 0;
-}
-
-#icon-holder:hover .rose-text {
+.home-box:hover .rose-icon {
     opacity: 1;
+}
+
+.home-box:hover .rose-text {
+    /*opacity: 1;*/
+    z-index: 4;
 }
 
 /* --- CONTENT BOXES RE: NAV --- */
@@ -272,9 +275,9 @@ p.lp {
     transition: opacity 0.5s ease-in-out;
 }
 
-.rose-icon:hover {
+/*.rose-icon:hover {
     opacity: 0;
-}
+}*/
 
 .home-box-content {
     position: relative;
@@ -409,6 +412,7 @@ p.lp {
         position: relative;
     }
 }
+
 
 /* --- FOOTER --- */
 .footpad {
