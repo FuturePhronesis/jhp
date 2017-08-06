@@ -16,6 +16,10 @@ a {
     color: #000000;
 }
 
+h3 {
+    font-size: 18px;
+}
+
 /*a:hover {
     opacity: 0.5;
     color: #979696;
@@ -116,6 +120,10 @@ h1 {
     margin-top: 0;
 }
 
+h3 {
+    font-size: 18px;
+}
+
 h1#left,
 h2#left,
 h3#left,
@@ -150,53 +158,19 @@ p {
     -webkit-margin-end: 0px;
 }
 
-p.lp {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    text-align: center;
-}
-
-.rose-text {
-    /*opacity: 0;*/
-    transition: opacity 0.5s ease-in-out;
-    display: block;
-}
-
-.rose-text:hover {
-    opacity: 1;
-}
-
 .home-box {
     position: relative;
 }
 
-.home-box .rose-icon {
-    /*transition: opacity 0.3s ease-in-out;*/
-    z-index: 3;
-}
-
-.home-box .rose-text {
-    /*transition: opacity 0.3s ease-in-out;*/
-    z-index: 2;
-}
-
-.home-box .rose-text {
-    position: absolute;
+.home-box p {
     width: 94%;
-    margin: -115 auto;
-    /*opacity: 0;*/
+    margin: 10px auto 0;
 }
 
-.home-box:hover .rose-icon {
-    opacity: 1;
-}
-
-.home-box:hover .rose-text {
-    /*opacity: 1;*/
-    z-index: 4;
+@media screen and (min-width: 640px) {
+    .home-box p {
+        min-height: 150px;
+    }
 }
 
 /* --- CONTENT BOXES RE: NAV --- */
@@ -310,18 +284,11 @@ p.lp {
 }
 
 /* ---BUTTONS--- */
-.button-sig,
-.button-blue,
-.button-green,
-.button-yellow,
-.button-red,
-.button-purple,
-.button-orange,
-.button-pink {
+[class|="button"] {
     display: block;
     vertical-align: middle;
     margin: 1rem auto 0;
-    width: 45%;
+    width: 68%;
     padding: 1em .5em;
     -webkit-appearance: none;
     border-radius: 4px;
@@ -412,6 +379,7 @@ p.lp {
         position: relative;
     }
 }
+
 
 
 /* --- FOOTER --- */
