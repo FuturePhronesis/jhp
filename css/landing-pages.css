@@ -164,17 +164,38 @@ p {
 
 .home-box p {
     width: 94%;
+    margin: 17px auto 0;
+    text-align: center;
+}
+
+/*@media screen and (min-width: 640px) {
+    .home-box p {
+        min-height: 150px;
+    }
+}*/
+
+.home-box-rose p {
+    width: 94%;
     margin: 10px auto 0;
 }
 
 @media screen and (min-width: 640px) {
-    .home-box p {
+    .home-box-rose p {
         min-height: 150px;
     }
 }
 
 /* --- CONTENT BOXES RE: NAV --- */
 .home-box {
+    background: #eee;
+    min-height: 300px;
+    padding: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 4px;
+}
+
+
+.home-box-rose {
     background: #eee;
     min-height: 300px;
     padding: 1rem;
