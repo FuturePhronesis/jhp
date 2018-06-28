@@ -1,3 +1,7 @@
+/*.topnav_birdie {
+    background-color: #a41d21 !important;
+}*/
+
 .topnav {
     overflow: hidden;
     background-color: #f3f3f3;
@@ -11,7 +15,7 @@
     text-align: center;
     padding: 14px 10px;
     text-decoration: none;
-    font-family: "Trebuchet MS", Helvetica;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     transition: 0.3s;
     font-size: 10px;
     text-transform: uppercase;
@@ -20,8 +24,8 @@
 
 @media screen and (min-width:715px) {
     .topnav a {
-    padding: 14px 16px;z
-    font-size: 12px;
+    padding: 14px 16px;
+    /*font-size: 12px;*/
         }
 }
 
@@ -41,6 +45,13 @@
 
 #jhp {
     max-width: 50%;
+    height: auto;
+    float: none;
+    box-sizing: border-box;
+}
+
+#bmob {
+    max-width: 60%;
     height: auto;
     float: none;
     box-sizing: border-box;
@@ -75,7 +86,12 @@
     }
 
     .topnav.responsive #jhp {
-        max-width: 50%;
+        max-width: 20%;
+        height: auto;
+    }
+
+    .topnav.responsive #bmob {
+        max-width: 20%;
         height: auto;
     }
 }
