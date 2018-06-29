@@ -1,0 +1,477 @@
+html {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #000000;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/*a:hover {
+    opacity: 0.5;
+    color: #979696;
+}*/
+
+.article-pad {
+    width: 94%;
+    margin: 0 auto;
+    max-width: 750px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.article-body {
+    margin: 30px 0;
+}
+
+@media (max-width: 1010px) {
+    .article-body > section {
+        padding-right: inherit;
+    }
+}
+
+#jhp-hero {
+    display: block;
+    margin: auto;
+    max-width: 55%;
+    height: auto;
+}
+
+#bmob-hero {
+    display: block;
+    margin: auto;
+    max-width: 65%;
+    height: auto;
+}
+
+.hero-img {
+    width: 100%;
+    margin-bottom: 25px;
+    /*margin-top: 15px;*/
+    display: block;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figure.lead-img {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+figcaption {
+    z-index: 110;
+    text-align: left;
+    position: static;
+    color: #999;
+}
+
+.credit {
+    position: absolute;
+    right: 0px;
+    bottom: -14px;
+    z-index: 2;
+    font-size: 12px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    z-index: 100;
+}
+
+#hero {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.article-head {
+    width: 94%;
+    margin: 0 auto;
+    max-width: 750px;
+    padding-bottom: 32px;
+}
+
+.article-body > section {
+    width: 94%;
+    margin: 0 auto 50px;
+    max-width: 825px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.77778rem;
+    line-height: 1.04;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h1#left,
+h2#left,
+h3#left,
+h4#left {
+    text-align: left;
+}
+
+#subhead {
+    font-size: 1.11111rem;
+    line-height: 1.2;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+#header-content {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#indent {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2.5em;
+    margin-left: 2.5em;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.home-box {
+    position: relative;
+}
+
+.home-box p {
+    width: 94%;
+    margin: 17px auto 0;
+    text-align: center;
+}
+
+/*@media screen and (min-width: 640px) {
+    .home-box p {
+        min-height: 150px;
+    }
+}*/
+
+.home-box-rose p {
+    width: 94%;
+    margin: 10px auto 0;
+}
+
+@media screen and (min-width: 640px) {
+    .home-box-rose p {
+        min-height: 150px;
+    }
+}
+
+/* --- CONTENT BOXES RE: NAV --- */
+.home-box {
+    background: #A19060;
+    min-height: 300px;
+    padding: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 4px;
+}
+
+
+.home-box-rose {
+    background: #eee;
+    min-height: 300px;
+    padding: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 4px;
+}
+
+.home-box-red,
+.home-box-yellow,
+.home-box-blue,
+.home-box-green,
+.home-box-purple,
+.home-box-orange,
+.home-box-pink,
+.home-box-sig {
+    min-height: 245px;
+    padding: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 4px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.home-box-red:hover,
+.home-box-yellow:hover,
+.home-box-blue:hover,
+.home-box-green:hover,
+.home-box-purple:hover,
+.home-box-orange:hover,
+.home-box-pink:hover,
+.home-box-sig:hover {
+    opacity: 1;
+}
+
+.home-box-red {
+    background: #db253b;
+}
+
+.home-box-yellow {
+    background: #fcf547;
+}
+
+.home-box-blue {
+    background: #4e73b7;
+}
+
+.home-box-green {
+    background: #5fae52;
+}
+
+.home-box-purple {
+    background: #8f5eb7;
+}
+
+.home-box-orange {
+    background: #feb356;
+}
+
+.home-box-pink {
+    background: #FB7BC5;
+}
+
+.home-box-sig {
+    background: #dcd1cf;
+}
+
+.rose-icon {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    max-width: 25%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/*.rose-icon:hover {
+    opacity: 0;
+}*/
+
+.home-box-content {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+}
+
+.home-box-text {
+    display: block;
+    width: 180px;
+    padding: 5px;
+    display: inline-block;
+    clear: none;
+
+}
+
+.home-img {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    max-width: 90%;
+    height: auto;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.home-box-pad {
+    padding: 5px;
+}
+
+/* ---BUTTONS--- */
+[class|="button"] {
+    display: block;
+    vertical-align: middle;
+    margin: 1rem auto 0;
+    width: 68%;
+    padding: 1em .5em;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    /*transition: background-color .25s ease-out, color .25s ease-out;*/
+    font-size: .9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-sig {
+    background-color: #bca7a3;
+    color: #000000;
+}
+
+.button-blue {
+    background-color: #355183;
+    color: #000000;
+}
+
+.button-green {
+    background-color: #427a39;
+    color: #000000;
+}
+
+.button-yellow {
+    background-color: #f7eb01;
+    color: #000000;
+}
+
+.button-red {
+    background-color: #9a1925;
+    color: #000000;
+}
+
+.button-purple {
+    background-color: #683e8b;
+    color: #000000;
+}
+
+.button-orange {
+    background-color: #ec9211;
+    color: #000000;
+}
+
+.button-pink {
+    background-color: #fa55b4;
+    color: #000000;
+}
+
+/* --- DROPCAP ---*/
+.dropcap {
+    float: left;
+    /* width: 0.7em; */
+    font-size: 300%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcapword {
+    width: 0.7em;
+    font-size: 150%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcap-intext {
+    float: left;
+    /* width: 0.7em; */
+    font-size: 175%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+.dropcap-intext-word {
+    width: 0.7em;
+    font-size: 125%;
+    line-height: 80%;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .home-box.responsive {
+        position: relative;
+    }
+
+    .home-box-content {
+        position: relative;
+    }
+}
+
+
+
+/* --- FOOTER --- */
+.footpad {
+    padding: 15px;
+}
+
+.footer {
+    position: absolute;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #A19060;
+    clear: both;
+    /*padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+   position:fixed;
+    left:0px;
+    bottom:0px;*/
+}
+
+.icon-box {
+    padding: 5px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.insta,
+.youtube,
+.email,
+.twitter {
+    float: right;
+}
+
+.footer-content-insta,
+.footer-content-youtube,
+.footer-content-email,
+.footer-content-twitter {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#footer-insta,
+#footer-youtube,
+#footer-email,
+#footer-twitter {
+    position: relative;
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    padding: 2px;
+}
+
+.insta:hover,
+.youtube:hover,
+.email:hover,
+.twitter:hover {
+    opacity: 0.5;
+    color: #EDE2C1;
+}
