@@ -1,7 +1,7 @@
 /**
  * Created by thomasmoore on 5/19/17.
  */
-(function() {
+(function () {
 
     'use strict';
 

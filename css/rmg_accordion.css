@@ -23,7 +23,7 @@
     background: #dbdbdb;
     padding: 1.5px;
     border-radius: 4px;
-    font-family: "Trebuchet MS", Helvetica;
+    font-family: "plantagenet cherokee", serif;
 }
 
 .accordion-section-title-red {
@@ -92,7 +92,7 @@ a.accordion-section-title-yellow.active::after {
     /*type*/
     font-size: 12pt;
     color: black;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "plantagenet cherokee", serif;
 }
 
 .accordion-section-content-red {

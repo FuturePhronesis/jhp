@@ -3,11 +3,11 @@
  */
 var windw = this;
 
-$.fn.followTo = function ( pos ) {
+$.fn.followTo = function (pos) {
     var $this = this,
         $window = $(windw);
 
-    $window.scroll(function(e){
+    $window.scroll(function (e) {
         if ($window.scrollTop() > pos) {
             $this.css({
                 position: 'absolute',

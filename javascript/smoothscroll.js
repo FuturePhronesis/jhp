@@ -25,8 +25,9 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
     };
     $.fn._scrollable = function () {
         return this.map(function () {
-            var a = this, isWin = !a.nodeName || $.inArray(a.nodeName.toLowerCase(), ['iframe', '#document', 'html', 'body']) != -1;
-            if (!isWin)return a;
+            var a = this,
+                isWin = !a.nodeName || $.inArray(a.nodeName.toLowerCase(), ['iframe', '#document', 'html', 'body']) != -1;
+            if (!isWin) return a;
             var b = (a.contentWindow || a).document || a.ownerDocument || a;
             return /webkit/i.test(navigator.userAgent) || b.compatMode == 'BackCompat' ? b.body : b.documentElement
         })
@@ -45,7 +46,7 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
         g.offset = both(g.offset);
         g.over = both(g.over);
         return this._scrollable().each(function () {
-            if (e == null)return;
+            if (e == null) return;
             var d = this, $elem = $(d), targ = e, toff, attr = {}, win = $elem.is('html,body');
             switch (typeof targ) {
                 case'number':
@@ -55,12 +56,13 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
                         break
                     }
                     targ = $(targ, this);
-                    if (!targ.length)return;
+                    if (!targ.length) return;
                 case'object':
                     if (targ.is || targ.style) toff = (targ = $(targ)).offset()
             }
             $.each(g.axis.split(''), function (i, a) {
-                var b = a == 'x' ? 'Left' : 'Top', pos = b.toLowerCase(), key = 'scroll' + b, old = d[key], max = h.max(d, a);
+                var b = a == 'x' ? 'Left' : 'Top', pos = b.toLowerCase(), key = 'scroll' + b, old = d[key],
+                    max = h.max(d, a);
                 if (toff) {
                     attr[key] = toff[pos] + (win ? 0 : old - $elem.offset()[pos]);
                     if (g.margin) {
@@ -80,19 +82,21 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
                 }
             });
             animate(g.onAfter);
+
             function animate(a) {
                 $elem.animate(attr, f, g.easing, a && function () {
-                        a.call(this, e, g)
-                    })
+                    a.call(this, e, g)
+                })
             }
         }).end()
     };
     h.max = function (a, b) {
         var c = b == 'x' ? 'Width' : 'Height', scroll = 'scroll' + c;
-        if (!$(a).is('html,body'))return a[scroll] - $(a)[c.toLowerCase()]();
+        if (!$(a).is('html,body')) return a[scroll] - $(a)[c.toLowerCase()]();
         var d = 'client' + c, html = a.ownerDocument.documentElement, body = a.ownerDocument.body;
         return Math.max(html[scroll], body[scroll]) - Math.min(html[d], body[d])
     };
+
     function both(a) {
         return typeof a == 'object' ? a : {top: a, left: a}
     }
@@ -156,11 +160,11 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
 
         a = b.extend({}, c.defaults, a);
         return a.lazy ? this.bind(a.event, function (d) {
-                var c = b([d.target, d.target.parentNode]).filter(e)[0];
-                c && g(d, c, a)
-            }) : this.find("a,area").filter(e).bind(a.event, function (b) {
-                g(b, this, a)
-            }).end().end()
+            var c = b([d.target, d.target.parentNode]).filter(e)[0];
+            c && g(d, c, a)
+        }) : this.find("a,area").filter(e).bind(a.event, function (b) {
+            g(b, this, a)
+        }).end().end()
     }
 })(jQuery);
 

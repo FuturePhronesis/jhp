@@ -1,5 +1,5 @@
 html {
-    font-family: "Trebuchet MS", Helvetica;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -11,7 +11,7 @@ body {
 
 a {
     text-decoration: none;
-    font-family: "Trebuchet MS", Helvetica;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #000000;
 }
 
@@ -210,7 +210,7 @@ p {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    background-color: #f3f3f3;
+    background-color: #C4C4C4;
     /*margin-left: auto;
     margin-right: auto;
    position:fixed;
@@ -259,5 +259,5 @@ p {
 .email:hover,
 .twitter:hover {
     opacity: 0.5;
-    color: #979696;
+    color: #F3F3F3;
 }
