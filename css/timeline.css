@@ -7,11 +7,12 @@
 }
 
 body {
-    font: normal 16px/1.5 "Trebuchet MS", Helvetica;
-    background: #456990;
-    color: #fff;
+    font: normal 16px/1.5 "plantagenet cherokee", serif;
+    background: #B9E4B2;
+    color: #000000;
     overflow-x: hidden;
     padding-bottom: 50px;
+    letter-spacing: .03em;
 }
 
 .quote-indent {
@@ -25,16 +26,16 @@ blockquote {
 }
 
 blockquote:before {
-    color: #ccc;
+    color: #B9E4B2;
     content: open-quote;
     font-size: 4em;
-    line-height: 0.1em;
+    line-height: 0.01em;
     margin-right: 0.05em;
     vertical-align: -0.4em;
 }
 
 blockquote:after {
-    color: #ccc;
+    color: #B9E4B2;
     content: close-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -50,8 +51,8 @@ blockquote p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-    background: #F45B69;
-    padding: 100px 0;
+    background: #B9E4B2;
+    padding: 45px 0 25px 0;
 }
 
 .container {
@@ -71,7 +72,7 @@ _________________________________________*/
 .sidebar-bomb {
     position: fixed;
     right: 25%;
-    top: 46%;
+    top: 27%;
 }
 
 /
@@ -80,7 +81,7 @@ _________________________________________*/
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-    background: #456990;
+    background: #3A8D2D;
     padding: 50px 0;
 }
 
@@ -110,7 +111,7 @@ _________________________________________*/
     bottom: 0;
     width: 400px;
     padding: 15px;
-    background: #F45B69;
+    background: #3A8D2D;
 }
 
 .timeline ul li #dresden {
@@ -118,7 +119,7 @@ _________________________________________*/
     bottom: 0;
     width: 900px;
     padding: 15px;
-    background: #F45B69;
+    background: #3A8D2D;
 }
 
 .timeline ul li div::before {
@@ -131,13 +132,15 @@ _________________________________________*/
 }
 
 .timeline ul li:nth-child(odd) div {
-    left: -439px;
+    /*left: -439px;*/
+    right: -45px;
 }
 
 .timeline ul li:nth-child(odd) div::before {
-    right: -15px;
-    border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #F45B69;
+    left: -15px;
+    /*right: -15px;*/
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #3A8D2D transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -147,7 +150,7 @@ _________________________________________*/
 .timeline ul li:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #F45B69;
+    border-color: transparent transparent transparent #3A8D2D;
 }
 
 time {
@@ -229,7 +232,7 @@ __________________________*/
     bottom: 0;
     width: 400px;
     padding: 15px;
-    background: #F45B69;
+    background: #3A8D2D;
 }
 
 .timedate ul li div.date {
@@ -238,9 +241,9 @@ __________________________*/
     bottom: 0;
     width: 84px;
     padding: 15px;
-    background: #F45B69;
-    -webkit-border-radius:;
-    -moz-border-radius:;
+    background: #3A8D2D;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
     border-radius: 50%;
 }
 
