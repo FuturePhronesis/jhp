@@ -15,6 +15,18 @@ body {
     letter-spacing: .03em;
 }
 
+h1,
+h2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin: auto;
+    letter-spacing: .2em;
+    vertical-align: middle;
+}
+
 .quote-indent {
     text-indent: .75rem;
 }
@@ -26,7 +38,7 @@ blockquote {
 }
 
 blockquote:before {
-    color: #B9E4B2;
+    color: #000000;
     content: open-quote;
     font-size: 4em;
     line-height: 0.01em;
@@ -35,7 +47,7 @@ blockquote:before {
 }
 
 blockquote:after {
-    color: #B9E4B2;
+    color: #000000;
     content: close-quote;
     font-size: 4em;
     line-height: 0.1em;
@@ -72,7 +84,7 @@ _________________________________________*/
 .sidebar-bomb {
     position: fixed;
     right: 25%;
-    top: 27%;
+    top: 31%;
 }
 
 /
@@ -108,6 +120,7 @@ _________________________________________*/
 
 .timeline ul li div {
     position: relative;
+    border-radius: 6px;
     bottom: 0;
     width: 400px;
     padding: 15px;
@@ -119,7 +132,95 @@ _________________________________________*/
     bottom: 0;
     width: 900px;
     padding: 15px;
+    background: #db253b;
+    left: -439px;
+    z-index: 1000;
+}
+
+.timeline ul li #date_odd_red,
+.timeline ul li #date_odd_green,
+.timeline ul li #date_odd_orange,
+.timeline ul li #date_odd_blue
+{
+    position: relative;
+    bottom: 0;
+    width: 326px;
+    padding: 15px;
+    left: -156px;
+    z-index: 1000;
+}
+
+.timeline ul li #date_odd_red {
+    background: #db253b;
+}
+
+.timeline ul li #date_odd_green {
     background: #3A8D2D;
+}
+
+.timeline ul li #date_odd_blue {
+    background: #4e73b7;
+}
+
+.timeline ul li #date_odd_orange {
+    background: #feb356;
+}
+
+.timeline ul li #date_even {
+    position: relative;
+    bottom: 0;
+    width: 326px;
+    padding: 15px;
+    background: pink;
+    left: -155px;
+    z-index: 1000;
+}
+
+.timeline ul li #date_even_red,
+.timeline ul li #date_even_green,
+.timeline ul li #date_even_orange,
+.timeline ul li #date_even_blue {
+    position: relative;
+    bottom: 0;
+    width: 326px;
+    padding: 15px;
+    left: -155px;
+    z-index: 1000;
+}
+
+.timeline ul li #date_even_red {
+    background: #db253b;
+}
+
+.timeline ul li #box_red_odd,
+.timeline ul li #box_red_even {
+    background: #ea4d5f;
+}
+
+.timeline ul li #date_even_green {
+    background: #3A8D2D;
+}
+
+.timeline ul li #box_green_odd,
+.timeline ul li #box_green_even {
+    background: #5fae52;
+}
+.timeline ul li #date_even_blue {
+    background: #4e73b7;
+}
+
+.timeline ul li #box_blue_even,
+.timeline ul li #box_blue_odd {
+    background: #7394CF;
+}
+
+.timeline ul li #date_even_orange {
+    background: #feb356;
+}
+
+.timeline ul li #box_orange_odd,
+.timeline ul li #box_orange_even {
+    background: #ffc379;
 }
 
 .timeline ul li div::before {
@@ -129,6 +230,22 @@ _________________________________________*/
     width: 0;
     height: 0;
     border-style: solid;
+}
+
+.timeline ul li:nth-child(even) #dresden::before,
+.timeline ul li:nth-child(odd) #dresden::before,
+.timeline ul li:nth-child(odd) #date_odd_red::before,
+.timeline ul li:nth-child(odd) #date_odd_green::before,
+.timeline ul li:nth-child(odd) #date_odd_blue::before,
+.timeline ul li:nth-child(odd) #date_odd_orange::before,
+.timeline ul li:nth-child(even) #date_even_red::before,
+.timeline ul li:nth-child(even) #date_even_green::before,
+.timeline ul li:nth-child(even) #date_even_blue::before,
+.timeline ul li:nth-child(even) #date_even_orange::before {
+    left: -15px;
+    /*right: -15px;*/
+    border-width: 8px 16px 8px 0;
+    border-color: transparent transparent transparent transparent;
 }
 
 .timeline ul li:nth-child(odd) div {
@@ -141,6 +258,38 @@ _________________________________________*/
     /*right: -15px;*/
     border-width: 8px 16px 8px 0;
     border-color: transparent #3A8D2D transparent transparent;
+}
+
+.timeline ul li:nth-child(even) #box_red_even::before {
+    border-color: transparent transparent transparent #ea4d5f;
+}
+
+.timeline ul li:nth-child(odd) #box_red_odd::before {
+    border-color: transparent #ea4d5f transparent transparent;
+}
+
+.timeline ul li:nth-child(even) #box_green_even::before {
+    border-color: transparent transparent transparent #5fae52;
+}
+
+.timeline ul li:nth-child(odd) #box_green_odd::before {
+    border-color: transparent #5fae52 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) #box_orange_even::before {
+    border-color: transparent transparent transparent #ffc379;
+}
+
+.timeline ul li:nth-child(odd) #box_orange_odd::before {
+    border-color: transparent #ffc379 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) #box_blue_even::before {
+    border-color: transparent transparent transparent #7394CF;
+}
+
+.timeline ul li:nth-child(odd) #box_blue_odd::before {
+    border-color: transparent #7394CF transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -330,6 +479,6 @@ __________________________*/
     .timeline ul li:nth-child(even) div::before {
         left: -15px;
         border-width: 8px 16px 8px 0;
-        border-color: transparent #F45B69 transparent transparent;
+        border-color: transparent #3A8D2D transparent transparent;
     }
 }
