@@ -131,10 +131,11 @@ _________________________________________*/
     position: relative;
     bottom: 0;
     width: 900px;
-    padding: 15px;
-    background: #db253b;
+    padding: 15px 15px 0 15px;
+    background: #5fae52;
     left: -439px;
     z-index: 1000;
+    background-image: url("../images/rosemustard/dresden_timeline.png");
 }
 
 .timeline ul li #date_odd_red,

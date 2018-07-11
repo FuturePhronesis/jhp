@@ -26,6 +26,13 @@ h3 {
     color: #979696;
 }*/
 
+hr {
+    background-color: #A19060;
+    height: 2px;
+    border: 0 none;
+    border-radius: 5px;
+}
+
 .article-pad {
     width: 94%;
     margin: 0 auto;
