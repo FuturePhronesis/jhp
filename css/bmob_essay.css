@@ -170,11 +170,11 @@ a:visited {
     font-family: "Montserrat Alternates", sans-serif;
 }
 
-a:hover {
+/*a:hover {
     color: #EDE2C1;
     text-decoration: none;
     font-family: "Montserrat Alternates", sans-serif;
-}
+}*/
 
 /*img:hover {
     opacity: 0.5;
