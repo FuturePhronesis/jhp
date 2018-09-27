@@ -2,7 +2,7 @@ html {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
     box-sizing: border-box;
-    background-color: #F3F3F3;
+    background-color: #ffbaa9;
 }
 
 body {
@@ -426,7 +426,7 @@ p {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    background-color: #C4C4C4;
+    background-color: #e8cdc6;
     clear: both;
     /*padding: 0 15px;
     margin-left: auto;
