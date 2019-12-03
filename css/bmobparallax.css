@@ -1,0 +1,133 @@
+.sticky
+{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30px;
+    font: 90px "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+    color: #800009;
+    text-align: center;
+}
+
+.sticky_bottom
+{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30px;
+    font: 90px "Montserrat Alternates", sans-serif;
+    color: #800009;
+    text-align: center;
+}
+
+.sticky_birds_headline
+{
+    top: 30px;
+    font: 50px "Montserrat Alternates", sans-serif;
+    font-weight: bold;
+    color: #800009;
+    text-align: center;
+    padding: 25px 0px 10px 0px
+}
+
+.sticky_birds_subhead
+{
+    top: 30px;
+    font: 30px "Montserrat Alternates", sans-serif;
+    color: #800009;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row_para {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column_para {
+    flex: 50%;
+    }
+
+.block-1, .block-3
+{
+    height: 900px;
+    padding: 70px 20px;
+    background-size: cover;
+    background-image: url("../images/background/ibis02.jpg");
+    box-sizing: border-box;
+    background-position: center;
+}
+.block-2
+{
+    background: url("../images/background/gnatcatcher01.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 900px;
+    background-position: center;
+}
+.block-3
+{
+    background-image: url("../images/background/vulture01.jpg");
+}
+
+.block-4
+{
+    height: 500px;
+    /*padding: 70px 20px;*/
+    box-sizing: border-box;
+    background-position: center;
+    }
+
+#block-4a
+{
+    height: 500px;
+    /*padding: 30px 5px;*/
+    background-size: cover;
+    background-image: url("../images/accipitridae/baldeagle_01.jpg");
+    box-sizing: border-box;
+    background-position: center;
+ }
+
+#block-4b {
+    height: 500px;
+    /*padding: 30px 5px;*/
+    background-size: cover;
+    background-image: url("../images/mimidae/mock_05.jpg");
+    box-sizing: border-box;
+    background-position: center;
+}
+
+.block-5
+{
+    height: 500px;
+    /*padding: 70px 20px;*/
+    box-sizing: border-box;
+    background-position: center;
+}
+
+#block-5a
+{
+    height: 500px;
+    /*padding: 30px 5px;*/
+    background-size: cover;
+    background-image: url("../images/picidae/flicker_08.jpg");
+    box-sizing: border-box;
+    background-position: center;
+}
+
+#block-5b {
+    height: 500px;
+    /*padding: 30px 5px;*/
+    background-size: cover;
+    background-image: url("../images/turdidae/robin_10.jpg");
+box-sizing: border-box;
+    background-position: center;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
